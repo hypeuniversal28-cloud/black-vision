@@ -1,7 +1,10 @@
-import { categories, customRequestCategory } from "@/lib/categories";
+import { getTranslations } from "next-intl/server";
+import { categories } from "@/lib/categories";
 import CategoryCard from "./CategoryCard";
 
-export default function CategoryList() {
+export default async function CategoryList() {
+  const t = await getTranslations();
+
   return (
     <div className="flex flex-col">
       {categories.map((c, i) => (
@@ -9,8 +12,8 @@ export default function CategoryList() {
           key={c.slug}
           index={i + 1}
           slug={c.slug}
-          label={c.navLabel}
-          blurb={c.homeBlurb}
+          label={t(`categories.${c.slug}.navLabel`)}
+          blurb={t(`categories.${c.slug}.homeBlurb`)}
           href={`/${c.slug}`}
           delay={Math.min(i * 40, 200)}
         />
@@ -18,8 +21,8 @@ export default function CategoryList() {
       <CategoryCard
         index={categories.length + 1}
         slug="custom-request"
-        label={customRequestCategory.navLabel}
-        blurb={customRequestCategory.homeBlurb}
+        label={t("customRequestCategory.navLabel")}
+        blurb={t("customRequestCategory.homeBlurb")}
         href="/custom-request"
         delay={Math.min(categories.length * 40, 200)}
       />

@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "titleDefault": "BLACK VISION | 私人采购与全球寻源",
+    "titleTemplate": "%s | BLACK VISION",
+    "siteDescription": "连接中国与迪拜的产品、供应商与商机。"
+  },
+  "common": {
+    "skipToContent": "跳转到内容",
+    "worldwide": "全球",
+    "categories": "分类",
+    "customRequest": "定制需求",
+    "sendARequest": "发送需求",
+    "sendYourRequest": "发送您的需求 →",
+    "request": "需求",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "menu": "菜单",
+    "backHome": "返回首页 →",
+    "homeAriaLabel": "BLACK VISION — 首页"
+  },
+  "nav": {
+    "howItWorks": "运作流程",
+    "about": "关于我们",
+    "faq": "常见问题",
+    "contact": "联系我们"
+  },
+  "footer": {
+    "tagline": "私人专享。",
+    "sourcingHeading": "寻源",
+    "companyHeading": "公司",
+    "connectHeading": "联系方式",
+    "languageHeading": "语言",
+    "rights": "版权所有。"
+  },
+  "home": {
+    "heroEyebrow": "私人专享。",
+    "heroLead": "连接中国与迪拜的产品、供应商与商机。",
+    "explore": "探索 →",
+    "discoverEyebrow": "寻源",
+    "discoverTitle": "您在寻找什么？",
+    "processEyebrow": "流程",
+    "processTitle": "运作方式",
+    "processSub": "私人订制服务，从第一条消息到最终交付全程跟进。"
+  },
+  "trustBar": {
+    "eyebrow": "本地据点",
+    "china": "中国",
+    "dubai": "迪拜",
+    "tagline": "本地资源，全球触达。"
+  },
+  "trust": {
+    "eyebrow": "为什么选择 BLACK VISION",
+    "title": "我们如何保障您的每一次需求。",
+    "points": [
+      { "title": "专人对接，而非排队等候", "body": "每一条需求都由真人直接查看并回复——不是机器人，也不是工单系统。" },
+      { "title": "报价前先核实", "body": "我们找到的一切都会核实——供应商、成色、文件——对照您的需求，确认无误后才会报价。" },
+      { "title": "未经确认，不会推进", "body": "您会先收到报价，确认后我们才会开始采购。" },
+      { "title": "本地据点，而非中介名录", "body": "我们在中国和迪拜均设有直接据点——不是一份联系人名单。" }
+    ]
+  },
+  "cta": {
+    "line1": "您需要它。",
+    "line2": "我们为您寻找。",
+    "label": "发送您的需求 →"
+  },
+  "categoryPage": {
+    "sourcingEyebrow": "寻源",
+    "whatWeSourceEyebrow": "我们提供的寻源服务",
+    "whatWeSourceTitle": "私人订制需求，\n而非现货目录。",
+    "categoriesEyebrow": "分类",
+    "howItWorksEyebrow": "运作流程",
+    "howItWorksTitle": "从需求到交付。",
+    "ctaSuffix": "私人寻源。"
+  },
+  "categories": {
+    "cars": {
+      "navLabel": "汽车",
+      "heroTitle": "汽车",
+      "heroSub": "面向国际市场的私人汽车寻源服务。",
+      "intro": "这不是交易平台。没有现货可供浏览，也没有标价——每一辆车都根据您的具体需求寻找，核实无误后才会报价。",
+      "items": ["豪华轿车", "超级跑车", "SUV", "高端车型", "商务用车", "定制需求"],
+      "focus": ["调研", "寻源", "车源核实", "验车", "议价", "物流"],
+      "ctaLabel": "寻找一辆车 →",
+      "metaTitle": "BLACK VISION | 豪华汽车寻源",
+      "metaDescription": "在中国、迪拜及国际市场提供豪华轿车、超级跑车与高端车型的私人寻源服务。",
+      "homeBlurb": "豪华与高端车型，经过寻找与核实。"
+    },
+    "fashion": {
+      "navLabel": "时尚",
+      "heroTitle": "时尚",
+      "heroSub": "私人寻源时尚单品、配饰与稀缺款式。",
+      "intro": "从秀场单品到已停产的款式，我们通过自有网络寻找并核实每一件商品，确认无误后再交付给您。",
+      "items": ["设计师时装", "服装", "鞋履", "包袋", "配饰", "定制需求"],
+      "ctaLabel": "咨询单品 →",
+      "metaTitle": "BLACK VISION | 私人时尚寻源",
+      "metaDescription": "在中国和迪拜提供设计师时装、配饰与稀缺单品的私人寻源服务。",
+      "homeBlurb": "设计师单品与难寻的时尚款式。"
+    },
+    "watches": {
+      "navLabel": "腕表",
+      "heroTitle": "腕表",
+      "heroSub": "通过私人寻源，找到非凡腕表。",
+      "intro": "我们根据您的需求——型号、成色、证书文件——进行寻找，并在报价前完成核实。",
+      "items": ["奢华腕表", "稀有款式", "全新", "二手", "特殊需求"],
+      "focus": ["货源确认", "成色", "证书文件", "寻源", "核实"],
+      "ctaLabel": "咨询一块腕表 →",
+      "metaTitle": "BLACK VISION | 私人腕表寻源",
+      "metaDescription": "私人寻源奢华、稀有与二手腕表，货源、成色与证书文件均经核实。",
+      "homeBlurb": "奢华、稀有与二手腕表。"
+    },
+    "home": {
+      "navLabel": "家居",
+      "heroTitle": "家居",
+      "heroSub": "面向全球寻找的家具、软装与家居产品。",
+      "intro": "针对私人住宅与室内项目，我们根据具体需求寻找家具、五金与软装材料。",
+      "items": ["家具", "灯饰", "软装", "厨房", "卫浴", "室内产品", "定制单品"],
+      "ctaLabel": "为我的家居寻源 →",
+      "metaTitle": "BLACK VISION | 家具与室内寻源",
+      "metaDescription": "在中国和迪拜提供家具、灯饰、软装与室内产品的私人寻源服务。",
+      "homeBlurb": "家具、灯饰与室内软装单品。"
+    },
+    "business": {
+      "navLabel": "企业采购",
+      "heroTitle": "企业采购",
+      "heroSub": "为您的企业寻找产品、设备与供应商。",
+      "intro": "针对大规模采购的企业——机械设备、OEM 代工生产、自有品牌或批量供应——我们全程统筹协调。",
+      "items": ["机械设备", "设备器材", "商用用品", "OEM代工", "自有品牌", "包装", "批量订单"],
+      "ctaLabel": "发起企业采购需求 →",
+      "metaTitle": "BLACK VISION | 全球企业采购",
+      "metaDescription": "在中国和迪拜提供商用设备、机械、OEM代工生产与批量订单的私人寻源服务。",
+      "homeBlurb": "面向企业的设备、OEM与批量供应。"
+    },
+    "construction": {
+      "navLabel": "建筑工程",
+      "heroTitle": "建筑工程",
+      "heroSub": "为您的项目寻找建材、部品与设备。",
+      "intro": "针对承包商、开发商与私人项目，我们根据您的规格要求寻找建筑材料与工程设备。",
+      "items": ["建筑材料", "建筑部品", "五金部件", "灯具", "卫浴洁具", "工程设备", "定制寻源"],
+      "ctaLabel": "为我的项目寻源 →",
+      "metaTitle": "BLACK VISION | 建筑工程寻源",
+      "metaDescription": "在中国和迪拜提供建筑材料、部品与工程设备的私人寻源服务。",
+      "homeBlurb": "面向项目的材料与设备。"
+    },
+    "electronics": {
+      "navLabel": "电子产品",
+      "heroTitle": "电子产品",
+      "heroSub": "通过全球供应商寻找科技与电子产品。",
+      "intro": "从单件到批量订单，我们通过经核实的供应商寻找消费电子与商用电子产品。",
+      "items": ["消费电子", "智能设备", "商用电子", "配件", "OEM代工", "批量订单"],
+      "ctaLabel": "咨询电子产品 →",
+      "metaTitle": "BLACK VISION | 电子产品寻源",
+      "metaDescription": "在中国和迪拜提供消费电子、智能设备与商用电子产品的私人寻源服务。",
+      "homeBlurb": "消费电子与商用电子产品。"
+    }
+  },
+  "customRequestCategory": {
+    "navLabel": "定制需求",
+    "homeBlurb": "其他需求——告诉我们您需要什么。"
+  },
+  "process": {
+    "steps": [
+      { "number": "01", "title": "需求", "description": "告诉我们您需要什么。" },
+      { "number": "02", "title": "寻源", "description": "我们在网络中展开搜寻。" },
+      { "number": "03", "title": "核实", "description": "我们核实相关细节与供应商信息。" },
+      { "number": "04", "title": "报价", "description": "您将收到清晰的报价。未经您确认，我们不会推进。" },
+      { "number": "05", "title": "采购", "description": "我们统筹完成采购。" },
+      { "number": "06", "title": "交付", "description": "我们统筹安排交付。" }
+    ],
+    "whatWeHandle": [
+      "供应商开发",
+      "产品调研",
+      "议价",
+      "核实",
+      "采购统筹",
+      "按需进行质检",
+      "物流协调",
+      "全球交付协调"
+    ]
+  },
+  "faqItems": [
+    { "question": "BLACK VISION 可以寻找哪些产品？", "answer": "汽车、时尚单品、腕表、家居及软装产品、企业设备、建筑材料、电子产品，以及以上分类之外的定制需求。只要能够寻找到，请告诉我们您的需求。" },
+    { "question": "你们在哪里运作？", "answer": "我们在中国和迪拜均设有本地据点，为国际客户提供协调服务，并支持全球交付。" },
+    { "question": "你们是否服务个人客户？", "answer": "是的。私人客户与企业客户提交需求的方式相同，均由我们的团队直接处理。" },
+    { "question": "你们是否服务企业客户？", "answer": "是的。我们为寻找设备、机械、OEM代工生产、自有品牌与批量订单的企业提供支持。" },
+    { "question": "可以寻找定制产品吗？", "answer": "可以。定制与难寻单品正是我们的核心业务——请尽可能详细地提交您的需求。" },
+    { "question": "价格是如何计算的？", "answer": "价格取决于产品、供应商与数量。在我们完成寻找与核实之后，您会在推进之前收到清晰的报价。" },
+    { "question": "付款方式是怎样的？", "answer": "报价确认后，我们会直接与您确认付款条款，再开始采购。" },
+    { "question": "交付是如何安排的？", "answer": "采购确认后，我们会统筹物流与交付至您的目的地，并全程保持沟通。" },
+    { "question": "是否支持批量采购？", "answer": "支持。批量与企业订单遵循相同的需求流程，只需提前说明数量与交付地点。" },
+    { "question": "如何提交需求？", "answer": "通过需求表单告诉我们您的需要，我们会审核并与您取得联系。" }
+  ],
+  "pages": {
+    "about": {
+      "metaTitle": "BLACK VISION | 关于我们",
+      "metaDescription": "BLACK VISION 源于一个简单的理念：找到合适的产品，不应取决于是否认识合适的人。",
+      "heroEyebrow": "关于我们",
+      "heroTitle": "获取渠道\n改变一切。",
+      "heroSub": "BLACK VISION 源于一个简单的理念：找到合适的产品，不应取决于是否认识合适的人。",
+      "ideaEyebrow": "理念",
+      "ideaTitle": "一个私人采购机构，而非交易平台。",
+      "ideaSub": "客户并非前来浏览商品目录，而是告诉我们需要什么——我们负责寻找、核实，并交付到您手中。",
+      "p1": "我们往返于中国与迪拜之间——为全球私人客户与企业寻找产品、供应商与商机。",
+      "p2": "涵盖汽车、时尚、腕表、家居软装、企业设备、建筑材料与电子产品——以及客户提出的、超出以上分类的任何需求。",
+      "p3": "我们既服务寻找单件商品的个人客户，也服务大规模采购的企业客户。流程始终一致：需求、寻源、核实、报价、采购、交付。",
+      "approachEyebrow": "方法",
+      "approachTitle": "获取渠道，落到实处意味着什么。",
+      "pillars": [
+        { "title": "获取渠道", "body": "通往外部人士通常难以进入的市场的私人路径。" },
+        { "title": "网络", "body": "与横跨两大洲的供应商、生产商与专业人士建立的关系。" },
+        { "title": "本地据点", "body": "在中国和迪拜设有真实的当地团队，而非一份联系人名录。" },
+        { "title": "执行力", "body": "每一项需求都会经过寻找、核实与协调，直至交付完成。" },
+        { "title": "谨慎周到", "body": "私人客户与企业客户，均以同等的低调与用心对待。" }
+      ]
+    },
+    "howItWorks": {
+      "metaTitle": "BLACK VISION | 运作流程",
+      "metaDescription": "从需求到交付——了解 BLACK VISION 如何在中国和迪拜完成寻源、核实与采购协调。",
+      "heroEyebrow": "流程",
+      "heroTitle": "从需求\n到交付。",
+      "heroSub": "每一项需求都遵循同样严谨的流程，从第一条消息直至最终交付。",
+      "scopeEyebrow": "服务范围",
+      "scopeTitle": "我们负责的工作",
+      "scopeSub": "只承诺我们能够真正做到的——不做任何超出能力的承诺。"
+    },
+    "contact": {
+      "metaTitle": "BLACK VISION | 联系我们",
+      "metaDescription": "发送需求，或直接联系 BLACK VISION。",
+      "eyebrow": "联系我们",
+      "title": "为您找到它。"
+    },
+    "customRequest": {
+      "metaTitle": "BLACK VISION | 私人寻源需求",
+      "metaDescription": "告诉 BLACK VISION 您在寻找什么——接下来交给我们。",
+      "eyebrow": "定制需求",
+      "title": "没有找到您想要的？",
+      "sub": "告诉我们您的需求，接下来交给我们。"
+    },
+    "faq": {
+      "metaTitle": "BLACK VISION | 常见问题",
+      "metaDescription": "关于 BLACK VISION 寻源、报价、付款与交付的常见问题解答。",
+      "eyebrow": "常见问题",
+      "title": "您的问题，我们解答。",
+      "sub": "简短、直接的回答——不作任何虚构的承诺。"
+    },
+    "privacy": {
+      "metaTitle": "BLACK VISION | 隐私政策",
+      "metaDescription": "BLACK VISION 如何收集、使用与保护您的信息。",
+      "heroEyebrow": "法律信息",
+      "heroTitle": "隐私政策",
+      "heroSub": "最近更新时间——将在正式上线前确认。",
+      "sections": [
+        { "title": "我们收集的信息", "body": "当您提交需求或联系我们时，我们会收集您提供的信息——例如姓名、邮箱或 WhatsApp 号码，以及您所寻找产品的具体信息，包括您选择分享的任何文件或链接。" },
+        { "title": "我们如何使用这些信息", "body": "我们使用这些信息来审核您的需求、寻找并核实您所需的产品、准备报价，并就您的需求与您沟通。" },
+        { "title": "信息共享", "body": "我们仅在为完成您的需求所必需的范围内，与供应商或合作伙伴共享相关信息，绝不出售您的个人信息。" },
+        { "title": "您的权利", "body": "您可以随时直接联系我们，要求查阅、更正或删除我们持有的与您相关的信息。" }
+      ],
+      "disclaimer": "本页面为上线前的占位内容，正式发布前应由法律顾问审阅，以准确反映 BLACK VISION 的实际数据处理方式及适用法律。"
+    },
+    "terms": {
+      "metaTitle": "BLACK VISION | 条款",
+      "metaDescription": "适用于您使用 BLACK VISION 寻源服务的条款。",
+      "heroEyebrow": "法律信息",
+      "heroTitle": "条款",
+      "heroSub": "最近更新时间——将在正式上线前确认。",
+      "sections": [
+        { "title": "我们的服务", "body": "BLACK VISION 按需寻找产品、供应商与商机。提交需求并不代表保证有货——我们会先确认可寻找的范围，并在推进前提供报价。" },
+        { "title": "报价与付款", "body": "报价将直接与您确认，且仅在报价当时说明的有效期内有效。付款条款将在采购开始前商定。" },
+        { "title": "交付", "body": "交付时间取决于产品、供应商与目的地，将在采购确认后另行告知。" },
+        { "title": "责任限制", "body": "BLACK VISION 作为寻源与采购中介运作。我们会合理审慎地核实供应商与产品，但并不生产我们所寻找的商品。" }
+      ],
+      "disclaimer": "本页面为上线前的占位内容，正式发布前应由法律顾问审阅，以准确反映 BLACK VISION 的实际服务条款及适用法律。"
+    },
+    "cookies": {
+      "metaTitle": "BLACK VISION | Cookie 政策",
+      "metaDescription": "BLACK VISION 如何在本网站使用 Cookie。",
+      "heroEyebrow": "法律信息",
+      "heroTitle": "Cookie",
+      "heroSub": "最近更新时间——将在正式上线前确认。",
+      "sections": [
+        { "title": "必要性 Cookie", "body": "我们仅使用维持网站正常运行所需的最基本 Cookie，包括记住您选择的语言。" },
+        { "title": "数据分析", "body": "若未来加入数据分析工具，本页面将更新说明所收集的信息及退出方式。" }
+      ],
+      "disclaimer": "本页面为上线前的占位内容，正式发布前应由法律顾问审阅，以准确反映 BLACK VISION 实际的 Cookie 使用方式及适用法律。"
+    },
+    "notFound": {
+      "metaTitle": "BLACK VISION | 页面未找到",
+      "eyebrow": "404",
+      "title": "此页面\n不存在。",
+      "sub": "该页面可能已被移动，或网址有误。告诉我们您在寻找什么，接下来交给我们。"
+    }
+  },
+  "form": {
+    "needLabel": "01 — 您在寻找什么？",
+    "needPlaceholder": "描述产品、品牌、型号或规格……",
+    "linkLabel": "02 — 参考链接",
+    "linkPlaceholder": "粘贴产品、商品页面或参考资料的链接",
+    "linkNote": "有照片或文件？最后可以直接在 WhatsApp 对话中发送——比在此上传更快。",
+    "categoryLabel": "03 — 分类",
+    "categoryPlaceholder": "请选择分类",
+    "categoryOther": "其他",
+    "budgetLabel": "04 — 预算",
+    "budgetPlaceholder": "大致预算",
+    "quantityLabel": "05 — 数量",
+    "quantityPlaceholder": "例如：1件，或批量订单",
+    "destinationLabel": "06 — 目的地国家",
+    "destinationPlaceholder": "应交付至何处？",
+    "deadlineLabel": "07 — 期限",
+    "detailsLabel": "08 — 补充信息",
+    "detailsPlaceholder": "还有什么我们需要了解的吗？",
+    "nameLabel": "09 — 姓名",
+    "contactLabel": "10 — 邮箱或 WhatsApp",
+    "submitLabel": "提交需求 →",
+    "submitting": "发送中……",
+    "errorText": "出现问题，请重试，或直接通过以下方式联系我们：",
+    "errorLinkText": "WhatsApp",
+    "confirmEyebrow": "最后一步",
+    "confirmTitle": "您的需求已准备就绪。",
+    "confirmBody": "点击下方按钮，通过 WhatsApp 发送给我们。您填写的所有内容已自动整理完毕——只需点击发送即可。",
+    "sendButton": "通过 WHATSAPP 发送 →",
+    "confirmNote": "您可以直接在对话中发送照片或文件。"
+  },
+  "languageSwitcher": {
+    "label": "语言"
+  }
+}

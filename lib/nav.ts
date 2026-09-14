@@ -1,29 +1,31 @@
+// `label` is the English fallback; on-page rendering uses `key`/`slug` to
+// look up the translated string in messages/*.json.
 export const primaryNav = [
-  { label: "HOW IT WORKS", href: "/how-it-works" },
-  { label: "ABOUT", href: "/about" },
-  { label: "FAQ", href: "/faq" },
+  { key: "howItWorks", label: "HOW IT WORKS", href: "/how-it-works" },
+  { key: "about", label: "ABOUT", href: "/about" },
+  { key: "faq", label: "FAQ", href: "/faq" },
 ];
 
 export const footerCategoryLinks = [
-  { label: "Cars", href: "/cars" },
-  { label: "Fashion", href: "/fashion" },
-  { label: "Watches", href: "/watches" },
-  { label: "Home", href: "/home" },
-  { label: "Business", href: "/business" },
-  { label: "Construction", href: "/construction" },
-  { label: "Electronics", href: "/electronics" },
-  { label: "Custom Request", href: "/custom-request" },
+  { slug: "cars", label: "Cars", href: "/cars" },
+  { slug: "fashion", label: "Fashion", href: "/fashion" },
+  { slug: "watches", label: "Watches", href: "/watches" },
+  { slug: "home", label: "Home", href: "/home" },
+  { slug: "business", label: "Business", href: "/business" },
+  { slug: "construction", label: "Construction", href: "/construction" },
+  { slug: "electronics", label: "Electronics", href: "/electronics" },
+  { key: "customRequest", label: "Custom Request", href: "/custom-request" },
 ];
 
 export const footerCompanyLinks = [
-  { label: "How It Works", href: "/how-it-works" },
-  { label: "About", href: "/about" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Contact", href: "/contact" },
+  { key: "howItWorks", label: "How It Works", href: "/how-it-works" },
+  { key: "about", label: "About", href: "/about" },
+  { key: "faq", label: "FAQ", href: "/faq" },
+  { key: "contact", label: "Contact", href: "/contact" },
 ];
 
 export const footerLegalLinks = [
-  { label: "Privacy Policy", href: "/privacy" },
-  { label: "Terms", href: "/terms" },
-  { label: "Cookies", href: "/cookies" },
+  { key: "privacy", label: "Privacy Policy", href: "/privacy" },
+  { key: "terms", label: "Terms", href: "/terms" },
+  { key: "cookies", label: "Cookies", href: "/cookies" },
 ];

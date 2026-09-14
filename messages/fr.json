@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "titleDefault": "BLACK VISION | Shopping Privé & Sourcing Mondial",
+    "titleTemplate": "%s | BLACK VISION",
+    "siteDescription": "Accès à des produits, fournisseurs et opportunités entre la Chine et Dubaï."
+  },
+  "common": {
+    "skipToContent": "Passer au contenu",
+    "worldwide": "MONDIAL",
+    "categories": "CATÉGORIES",
+    "customRequest": "DEMANDE SUR MESURE",
+    "sendARequest": "ENVOYER UNE DEMANDE",
+    "sendYourRequest": "ENVOYEZ VOTRE DEMANDE →",
+    "request": "DEMANDE",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "menu": "Menu",
+    "backHome": "RETOUR À L'ACCUEIL →",
+    "homeAriaLabel": "BLACK VISION — Accueil"
+  },
+  "nav": {
+    "howItWorks": "COMMENT ÇA MARCHE",
+    "about": "À PROPOS",
+    "faq": "FAQ",
+    "contact": "CONTACT"
+  },
+  "footer": {
+    "tagline": "ACCÈS PRIVÉ.",
+    "sourcingHeading": "Sourcing",
+    "companyHeading": "Entreprise",
+    "connectHeading": "Contact",
+    "languageHeading": "Langue",
+    "rights": "Tous droits réservés."
+  },
+  "home": {
+    "heroEyebrow": "ACCÈS PRIVÉ.",
+    "heroLead": "Accès à des produits, fournisseurs et opportunités entre la Chine et Dubaï.",
+    "explore": "DÉCOUVRIR →",
+    "discoverEyebrow": "SOURCING",
+    "discoverTitle": "Que recherchez-vous ?",
+    "processEyebrow": "PROCESSUS",
+    "processTitle": "Comment ça marche",
+    "processSub": "Une demande privée, traitée du premier message jusqu'à la livraison finale."
+  },
+  "trustBar": {
+    "eyebrow": "SUR PLACE",
+    "china": "CHINE",
+    "dubai": "DUBAÏ",
+    "tagline": "Accès local. Portée mondiale."
+  },
+  "trust": {
+    "eyebrow": "POURQUOI BLACK VISION",
+    "title": "Comment nous protégeons votre demande.",
+    "points": [
+      { "title": "UNE PERSONNE, PAS UNE FILE D'ATTENTE", "body": "Chaque demande est lue et traitée directement — pas par un robot, pas par un système de tickets." },
+      { "title": "VÉRIFIÉ AVANT D'ÊTRE CHIFFRÉ", "body": "Ce que nous trouvons est vérifié — fournisseur, état, documentation — par rapport à votre demande, avant que vous ne receviez un prix." },
+      { "title": "RIEN N'AVANCE SANS VOUS", "body": "Vous recevez d'abord le devis. L'achat ne commence qu'une fois que vous l'avez validé." },
+      { "title": "SUR PLACE, PAS UN ANNUAIRE", "body": "Nous opérons directement en Chine et à Dubaï — pas via une liste de contacts." }
+    ]
+  },
+  "cta": {
+    "line1": "VOUS EN AVEZ BESOIN.",
+    "line2": "NOUS LE TROUVONS.",
+    "label": "ENVOYEZ VOTRE DEMANDE →"
+  },
+  "categoryPage": {
+    "sourcingEyebrow": "SOURCING",
+    "whatWeSourceEyebrow": "CE QUE NOUS SOURÇONS",
+    "whatWeSourceTitle": "Une demande privée,\npas un catalogue.",
+    "categoriesEyebrow": "CATÉGORIES",
+    "howItWorksEyebrow": "COMMENT ÇA MARCHE",
+    "howItWorksTitle": "De la demande à la livraison.",
+    "ctaSuffix": "SOURCÉ EN PRIVÉ."
+  },
+  "categories": {
+    "cars": {
+      "navLabel": "VOITURES",
+      "heroTitle": "VOITURES",
+      "heroSub": "Sourcing privé de véhicules sur les marchés internationaux.",
+      "intro": "Ceci n'est pas une place de marché. Il n'y a ni inventaire à parcourir ni prix affichés — chaque véhicule est recherché selon votre demande précise, puis vérifié avant d'être chiffré.",
+      "items": ["Voitures de Luxe", "Supercars", "SUV", "Véhicules Premium", "Véhicules Utilitaires", "Demandes Sur Mesure"],
+      "focus": ["Recherche", "Sourcing", "Disponibilité", "Vérification", "Négociation", "Logistique"],
+      "ctaLabel": "RECHERCHER UN VÉHICULE →",
+      "metaTitle": "BLACK VISION | Sourcing de Voitures de Luxe",
+      "metaDescription": "Sourcing privé de voitures de luxe, supercars et véhicules premium en Chine, à Dubaï et sur les marchés internationaux.",
+      "homeBlurb": "Véhicules de luxe et premium, sourcés et vérifiés."
+    },
+    "fashion": {
+      "navLabel": "MODE",
+      "heroTitle": "MODE",
+      "heroSub": "Sourcing privé de mode, d'accessoires et de pièces rares.",
+      "intro": "Des pièces de défilé aux articles qui ne sont plus produits, nous localisons et vérifions chaque pièce via notre réseau avant qu'elle ne vous parvienne.",
+      "items": ["Mode de Créateurs", "Vêtements", "Chaussures", "Sacs", "Accessoires", "Demandes Sur Mesure"],
+      "ctaLabel": "DEMANDER UNE PIÈCE →",
+      "metaTitle": "BLACK VISION | Sourcing Privé de Mode",
+      "metaDescription": "Sourcing privé de mode de créateurs, d'accessoires et de pièces rares en Chine et à Dubaï.",
+      "homeBlurb": "Pièces de créateurs et mode difficile à trouver."
+    },
+    "watches": {
+      "navLabel": "MONTRES",
+      "heroTitle": "MONTRES",
+      "heroSub": "Trouvez des montres d'exception grâce au sourcing privé.",
+      "intro": "Nous travaillons à partir de votre demande — modèle, état, documentation — et vérifions ce que nous trouvons avant de le chiffrer.",
+      "items": ["Montres de Luxe", "Modèles Rares", "Neuves", "Occasion", "Demandes Spéciales"],
+      "focus": ["Disponibilité", "État", "Documentation", "Sourcing", "Vérification"],
+      "ctaLabel": "DEMANDER UNE MONTRE →",
+      "metaTitle": "BLACK VISION | Sourcing Privé de Montres",
+      "metaDescription": "Sourcing privé de montres de luxe, rares et d'occasion, avec vérification de la disponibilité, de l'état et de la documentation.",
+      "homeBlurb": "Montres de luxe, rares et d'occasion."
+    },
+    "home": {
+      "navLabel": "MAISON",
+      "heroTitle": "MAISON",
+      "heroSub": "Mobilier, aménagements intérieurs et produits sourcés dans le monde entier.",
+      "intro": "Pour les résidences privées et les projets d'aménagement, nous sourçons mobilier, équipements et finitions selon un cahier des charges précis.",
+      "items": ["Mobilier", "Éclairage", "Décoration", "Cuisines", "Salles de Bains", "Produits d'Intérieur", "Pièces Sur Mesure"],
+      "ctaLabel": "SOURCER POUR MA MAISON →",
+      "metaTitle": "BLACK VISION | Sourcing de Mobilier & Décoration",
+      "metaDescription": "Sourcing privé de mobilier, d'éclairage, de décoration et de produits d'intérieur en Chine et à Dubaï.",
+      "homeBlurb": "Mobilier, éclairage et pièces d'intérieur."
+    },
+    "business": {
+      "navLabel": "ENTREPRISE",
+      "heroTitle": "ENTREPRISE",
+      "heroSub": "Sourcez produits, équipements et fournisseurs pour votre entreprise.",
+      "intro": "Pour les entreprises qui sourcent à grande échelle — machines, production OEM, marque privée ou approvisionnement en gros — nous coordonnons l'ensemble du processus.",
+      "items": ["Machines", "Équipements", "Fournitures Commerciales", "OEM", "Marque Privée", "Emballage", "Commandes en Gros"],
+      "ctaLabel": "LANCER UNE DEMANDE ENTREPRISE →",
+      "metaTitle": "BLACK VISION | Sourcing Professionnel International",
+      "metaDescription": "Sourcing privé d'équipements professionnels, de machines, de production OEM et de commandes en gros en Chine et à Dubaï.",
+      "homeBlurb": "Équipements, OEM et approvisionnement en gros pour entreprises."
+    },
+    "construction": {
+      "navLabel": "CONSTRUCTION",
+      "heroTitle": "CONSTRUCTION",
+      "heroSub": "Sourcez matériaux, équipements et fixtures pour vos projets.",
+      "intro": "Pour les entrepreneurs, promoteurs et projets privés, nous sourçons matériaux de construction et équipements de chantier selon vos spécifications.",
+      "items": ["Matériaux de Construction", "Produits Architecturaux", "Fixtures", "Éclairage", "Sanitaire", "Équipements de Chantier", "Sourcing Sur Mesure"],
+      "ctaLabel": "SOURCER POUR MON PROJET →",
+      "metaTitle": "BLACK VISION | Sourcing pour la Construction",
+      "metaDescription": "Sourcing privé de matériaux de construction, fixtures et équipements de chantier en Chine et à Dubaï.",
+      "homeBlurb": "Matériaux et équipements pour vos projets."
+    },
+    "electronics": {
+      "navLabel": "ÉLECTRONIQUE",
+      "heroTitle": "ÉLECTRONIQUE",
+      "heroSub": "Sourcez technologie et produits électroniques via des fournisseurs internationaux.",
+      "intro": "De l'unité seule aux commandes en gros, nous sourçons de l'électronique grand public et professionnelle via des fournisseurs vérifiés.",
+      "items": ["Électronique Grand Public", "Appareils Connectés", "Électronique Professionnelle", "Accessoires", "OEM", "Commandes en Gros"],
+      "ctaLabel": "DEMANDER DE L'ÉLECTRONIQUE →",
+      "metaTitle": "BLACK VISION | Sourcing Électronique",
+      "metaDescription": "Sourcing privé d'électronique grand public, d'appareils connectés et d'électronique professionnelle en Chine et à Dubaï.",
+      "homeBlurb": "Électronique grand public et professionnelle."
+    }
+  },
+  "customRequestCategory": {
+    "navLabel": "DEMANDE SUR MESURE",
+    "homeBlurb": "Autre chose — dites-nous ce dont vous avez besoin."
+  },
+  "process": {
+    "steps": [
+      { "number": "01", "title": "DEMANDE", "description": "Dites-nous ce dont vous avez besoin." },
+      { "number": "02", "title": "RECHERCHE", "description": "Nous consultons notre réseau." },
+      { "number": "03", "title": "VÉRIFICATION", "description": "Nous vérifions les détails et les fournisseurs concernés." },
+      { "number": "04", "title": "DEVIS", "description": "Vous recevez un devis clair. Rien n'avance sans votre accord." },
+      { "number": "05", "title": "ACHAT", "description": "Nous coordonnons l'achat." },
+      { "number": "06", "title": "LIVRAISON", "description": "Nous coordonnons la livraison." }
+    ],
+    "whatWeHandle": [
+      "Recherche de fournisseurs",
+      "Recherche produit",
+      "Négociation",
+      "Vérification",
+      "Coordination de l'achat",
+      "Contrôles qualité sur demande",
+      "Coordination logistique",
+      "Coordination de la livraison mondiale"
+    ]
+  },
+  "faqItems": [
+    { "question": "Que peut sourcer BLACK VISION ?", "answer": "Voitures, mode, montres, produits pour la maison et l'intérieur, équipements professionnels, matériaux de construction, électronique, et toute demande sur mesure en dehors de ces catégories. Si cela peut être sourcé, dites-nous ce dont vous avez besoin." },
+    { "question": "Où opérez-vous ?", "answer": "Nous opérons sur place en Chine et à Dubaï, en coordination avec des clients à l'international et une livraison dans le monde entier." },
+    { "question": "Travaillez-vous avec des particuliers ?", "answer": "Oui. Les clients privés soumettent une demande de la même manière que les entreprises, et elle est traitée directement par notre équipe." },
+    { "question": "Travaillez-vous avec des entreprises ?", "answer": "Oui. Nous accompagnons les entreprises qui sourcent des équipements, des machines, de la production OEM, de la marque privée et des commandes en gros." },
+    { "question": "Pouvez-vous sourcer des produits sur mesure ?", "answer": "Oui. Les demandes sur mesure et les pièces difficiles à trouver sont au cœur de notre activité — soumettez une demande avec le plus de détails possible." },
+    { "question": "Comment fonctionne la tarification ?", "answer": "Le prix dépend du produit, du fournisseur et de la quantité. Une fois que nous avons sourcé et vérifié ce que vous recherchez, vous recevez un devis clair avant que quoi que ce soit n'avance." },
+    { "question": "Comment fonctionne le paiement ?", "answer": "Les modalités de paiement sont confirmées directement avec vous une fois le devis accepté, avant que nous ne procédions à l'achat." },
+    { "question": "Comment fonctionne la livraison ?", "answer": "Nous coordonnons la logistique et la livraison jusqu'à votre destination une fois l'achat confirmé, et vous tenons informé tout au long du processus." },
+    { "question": "Pouvez-vous sourcer en gros ?", "answer": "Oui. Les commandes en gros et professionnelles suivent le même processus de demande, avec la quantité et la destination précisées dès le départ." },
+    { "question": "Comment soumettre une demande ?", "answer": "Utilisez le formulaire de demande pour nous dire ce dont vous avez besoin. Nous l'examinons et revenons vers vous." }
+  ],
+  "pages": {
+    "about": {
+      "metaTitle": "BLACK VISION | À Propos",
+      "metaDescription": "BLACK VISION est né d'une idée simple : trouver le bon produit ne devrait pas exiger de connaître les bonnes personnes.",
+      "heroEyebrow": "À PROPOS",
+      "heroTitle": "L'ACCÈS CHANGE\nTOUT.",
+      "heroSub": "BLACK VISION est né d'une idée simple : trouver le bon produit ne devrait pas exiger de connaître les bonnes personnes.",
+      "ideaEyebrow": "L'IDÉE",
+      "ideaTitle": "Un bureau d'accès privé, pas une place de marché.",
+      "ideaSub": "Les clients ne viennent pas parcourir un catalogue. Ils viennent dire ce dont ils ont besoin — et nous le trouvons, le vérifions, et le leur apportons.",
+      "p1": "Nous travaillons entre la Chine et Dubaï — en sourçant produits, fournisseurs et opportunités pour des clients privés et des entreprises dans le monde entier.",
+      "p2": "Cela couvre les voitures, la mode, les montres, l'aménagement intérieur, les équipements professionnels, les matériaux de construction et l'électronique — et tout ce qu'un client nous apporte en dehors de ces catégories.",
+      "p3": "Nous travaillons avec des particuliers qui recherchent une pièce unique, et avec des entreprises qui sourcent à grande échelle. Le processus reste le même : demande, recherche, vérification, devis, achat, livraison.",
+      "approachEyebrow": "APPROCHE",
+      "approachTitle": "Ce que l'accès signifie, en pratique.",
+      "pillars": [
+        { "title": "ACCÈS", "body": "Une voie privée vers des marchés autrement fermés aux étrangers." },
+        { "title": "RÉSEAU", "body": "Des relations avec fournisseurs, fabricants et spécialistes sur deux continents." },
+        { "title": "PRÉSENCE LOCALE", "body": "Des personnes sur place en Chine et à Dubaï, pas un annuaire de contacts." },
+        { "title": "EXÉCUTION", "body": "Chaque demande est sourcée, vérifiée et coordonnée jusqu'à la livraison." },
+        { "title": "DISCRÉTION", "body": "Clients privés et entreprises, traités avec la même attention discrète." }
+      ]
+    },
+    "howItWorks": {
+      "metaTitle": "BLACK VISION | Comment Ça Marche",
+      "metaDescription": "De la demande à la livraison — comment BLACK VISION source, vérifie et coordonne les achats en Chine et à Dubaï.",
+      "heroEyebrow": "PROCESSUS",
+      "heroTitle": "DE LA DEMANDE\nÀ LA LIVRAISON.",
+      "heroSub": "Chaque demande suit le même processus rigoureux, du premier message jusqu'à la livraison finale.",
+      "scopeEyebrow": "PÉRIMÈTRE",
+      "scopeTitle": "Ce que nous prenons en charge",
+      "scopeSub": "Uniquement ce que nous pouvons réellement livrer — rien n'est promis au-delà."
+    },
+    "contact": {
+      "metaTitle": "BLACK VISION | Contact",
+      "metaDescription": "Envoyez une demande, ou contactez directement BLACK VISION.",
+      "eyebrow": "CONTACT",
+      "title": "TROUVONS-LE."
+    },
+    "customRequest": {
+      "metaTitle": "BLACK VISION | Demande de Sourcing Privé",
+      "metaDescription": "Dites à BLACK VISION ce que vous recherchez — nous prenons le relais.",
+      "eyebrow": "DEMANDE SUR MESURE",
+      "title": "VOUS NE TROUVEZ PAS CE QUE VOUS CHERCHEZ ?",
+      "sub": "Dites-nous ce dont vous avez besoin. Nous prenons le relais."
+    },
+    "faq": {
+      "metaTitle": "BLACK VISION | FAQ",
+      "metaDescription": "Réponses aux questions courantes sur le sourcing, la tarification, le paiement et la livraison avec BLACK VISION.",
+      "eyebrow": "FAQ",
+      "title": "Vos questions, nos réponses.",
+      "sub": "Des réponses courtes et directes — aucune garantie inventée."
+    },
+    "privacy": {
+      "metaTitle": "BLACK VISION | Politique de Confidentialité",
+      "metaDescription": "Comment BLACK VISION collecte, utilise et protège vos informations.",
+      "heroEyebrow": "LÉGAL",
+      "heroTitle": "Politique de Confidentialité",
+      "heroSub": "Dernière mise à jour — à confirmer avant le lancement.",
+      "sections": [
+        { "title": "Informations que nous collectons", "body": "Lorsque vous soumettez une demande ou nous contactez, nous collectons les informations que vous fournissez — comme votre nom, votre email ou numéro WhatsApp, et les précisions sur ce que vous recherchez, y compris tout fichier ou lien que vous choisissez de partager." },
+        { "title": "Comment nous les utilisons", "body": "Nous utilisons ces informations pour examiner votre demande, sourcer et vérifier ce que vous recherchez, préparer un devis, et communiquer avec vous au sujet de votre demande." },
+        { "title": "Partage", "body": "Nous ne partageons les détails de votre demande avec des fournisseurs ou partenaires que dans la mesure nécessaire pour y répondre, et ne vendons jamais vos informations personnelles." },
+        { "title": "Vos droits", "body": "Vous pouvez nous demander d'accéder, de corriger ou de supprimer les informations que nous détenons à votre sujet à tout moment, en nous contactant directement." }
+      ],
+      "disclaimer": "Cette page est provisoire et doit être revue par un conseil juridique avant le lancement, afin de refléter les pratiques réelles de BLACK VISION en matière de données et le droit applicable."
+    },
+    "terms": {
+      "metaTitle": "BLACK VISION | Conditions Générales",
+      "metaDescription": "Les conditions régissant votre utilisation du service de sourcing de BLACK VISION.",
+      "heroEyebrow": "LÉGAL",
+      "heroTitle": "Conditions Générales",
+      "heroSub": "Dernière mise à jour — à confirmer avant le lancement.",
+      "sections": [
+        { "title": "Notre service", "body": "BLACK VISION source des produits, fournisseurs et opportunités sur demande. Soumettre une demande ne garantit pas la disponibilité — nous confirmons ce que nous pouvons sourcer et fournissons un devis avant toute suite donnée." },
+        { "title": "Devis et paiement", "body": "Les devis sont confirmés directement avec vous et ne sont valables que pour la période indiquée au moment de leur émission. Les modalités de paiement sont convenues avant le début de l'achat." },
+        { "title": "Livraison", "body": "Les délais de livraison dépendent du produit, du fournisseur et de la destination, et sont communiqués une fois l'achat confirmé." },
+        { "title": "Limitation de responsabilité", "body": "BLACK VISION agit en tant qu'intermédiaire de sourcing et d'achat. Nous apportons un soin raisonnable à la vérification des fournisseurs et des produits, mais ne fabriquons pas les biens que nous sourçons." }
+      ],
+      "disclaimer": "Cette page est provisoire et doit être revue par un conseil juridique avant le lancement, afin de refléter les conditions générales réelles de BLACK VISION et le droit applicable."
+    },
+    "cookies": {
+      "metaTitle": "BLACK VISION | Cookies",
+      "metaDescription": "Comment BLACK VISION utilise les cookies sur ce site.",
+      "heroEyebrow": "LÉGAL",
+      "heroTitle": "Cookies",
+      "heroSub": "Dernière mise à jour — à confirmer avant le lancement.",
+      "sections": [
+        { "title": "Cookies essentiels", "body": "Nous utilisons un nombre minimal de cookies nécessaires au bon fonctionnement de ce site, y compris pour mémoriser la langue choisie." },
+        { "title": "Analyse d'audience", "body": "Si des outils d'analyse sont ajoutés à l'avenir, cette page sera mise à jour pour décrire ce qui est collecté et comment s'en désinscrire." }
+      ],
+      "disclaimer": "Cette page est provisoire et doit être revue par un conseil juridique avant le lancement, afin de refléter l'utilisation réelle des cookies par BLACK VISION et le droit applicable."
+    },
+    "notFound": {
+      "metaTitle": "BLACK VISION | Page Introuvable",
+      "eyebrow": "404",
+      "title": "CETTE PAGE\nN'EXISTE PAS.",
+      "sub": "Elle a peut-être été déplacée, ou l'adresse est incorrecte. Dites-nous ce que vous recherchez et nous prenons le relais."
+    }
+  },
+  "form": {
+    "needLabel": "01 — QUE RECHERCHEZ-VOUS ?",
+    "needPlaceholder": "Décrivez le produit, la marque, le modèle ou les spécifications…",
+    "linkLabel": "02 — LIEN DE RÉFÉRENCE",
+    "linkPlaceholder": "Collez un lien vers le produit, l'annonce ou la référence",
+    "linkNote": "Vous avez des photos ou documents ? Envoyez-les directement dans la conversation WhatsApp à la fin — c'est plus rapide qu'un envoi ici.",
+    "categoryLabel": "03 — CATÉGORIE",
+    "categoryPlaceholder": "Sélectionnez une catégorie",
+    "categoryOther": "AUTRE",
+    "budgetLabel": "04 — BUDGET",
+    "budgetPlaceholder": "Budget approximatif",
+    "quantityLabel": "05 — QUANTITÉ",
+    "quantityPlaceholder": "ex. 1, ou commande en gros",
+    "destinationLabel": "06 — PAYS DE DESTINATION",
+    "destinationPlaceholder": "Où la livraison doit-elle se faire ?",
+    "deadlineLabel": "07 — ÉCHÉANCE",
+    "detailsLabel": "08 — DÉTAILS SUPPLÉMENTAIRES",
+    "detailsPlaceholder": "Autre chose que nous devrions savoir ?",
+    "nameLabel": "09 — NOM COMPLET",
+    "contactLabel": "10 — EMAIL OU WHATSAPP",
+    "submitLabel": "ENVOYER LA DEMANDE →",
+    "submitting": "ENVOI EN COURS…",
+    "errorText": "Une erreur s'est produite. Merci de réessayer, ou contactez-nous directement sur",
+    "errorLinkText": "WhatsApp",
+    "confirmEyebrow": "DERNIÈRE ÉTAPE",
+    "confirmTitle": "VOTRE DEMANDE EST PRÊTE.",
+    "confirmBody": "Appuyez ci-dessous pour nous l'envoyer sur WhatsApp. Tout ce que vous avez saisi est déjà rédigé — il ne reste qu'à l'envoyer.",
+    "sendButton": "ENVOYER SUR WHATSAPP →",
+    "confirmNote": "Vous pouvez joindre des photos ou documents directement dans la conversation."
+  },
+  "languageSwitcher": {
+    "label": "Langue"
+  }
+}

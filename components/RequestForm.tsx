@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { useTranslations } from "next-intl";
 import { categories } from "@/lib/categories";
 import { site } from "@/lib/site";
 import Reveal from "./Reveal";
@@ -15,6 +16,7 @@ export default function RequestForm({
 }: {
   defaultCategory?: string;
 }) {
+  const t = useTranslations();
   const [status, setStatus] = useState<"idle" | "submitting" | "done" | "error">(
     "idle"
   );
@@ -45,25 +47,20 @@ export default function RequestForm({
   if (status === "done") {
     return (
       <Reveal className="flex flex-col items-center gap-5 border border-line bg-surface px-8 py-16 text-center md:py-20">
-        <span className="bv-eyebrow">ONE LAST STEP</span>
+        <span className="bv-eyebrow">{t("form.confirmEyebrow")}</span>
         <h3 className="text-3xl font-semibold tracking-tight text-ink md:text-4xl">
-          YOUR REQUEST IS READY.
+          {t("form.confirmTitle")}
         </h3>
-        <p className="max-w-[42ch] text-ink-dim">
-          Tap below to send it to us on WhatsApp. Everything you entered is
-          already written out — you just press send.
-        </p>
+        <p className="max-w-[42ch] text-ink-dim">{t("form.confirmBody")}</p>
         <a
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-2 inline-flex items-center justify-center gap-2 rounded-sm bg-ink px-8 py-4 text-sm font-semibold tracking-[0.14em] text-bg transition-transform duration-300 hover:scale-[1.02]"
         >
-          SEND ON WHATSAPP →
+          {t("form.sendButton")}
         </a>
-        <p className="max-w-[42ch] text-sm text-ink-faint">
-          You can attach photos or documents directly in the conversation.
-        </p>
+        <p className="max-w-[42ch] text-sm text-ink-faint">{t("form.confirmNote")}</p>
       </Reveal>
     );
   }
@@ -72,39 +69,36 @@ export default function RequestForm({
     <form onSubmit={handleSubmit} className="flex flex-col gap-14">
       <div>
         <label htmlFor="need" className={fieldLabel}>
-          01 — WHAT ARE YOU LOOKING FOR?
+          {t("form.needLabel")}
         </label>
         <textarea
           id="need"
           name="need"
           required
           rows={3}
-          placeholder="Describe the product, brand, model or specification…"
+          placeholder={t("form.needPlaceholder")}
           className={`${fieldBase} resize-none`}
         />
       </div>
 
       <div>
         <label htmlFor="reference_link" className={fieldLabel}>
-          02 — REFERENCE LINK
+          {t("form.linkLabel")}
         </label>
         <input
           id="reference_link"
           name="reference_link"
           type="url"
-          placeholder="Paste a link to the product, listing or reference"
+          placeholder={t("form.linkPlaceholder")}
           className={fieldBase}
         />
-        <p className="mt-3 text-xs leading-relaxed text-ink-faint">
-          Have photos or documents? Send them straight into the WhatsApp
-          conversation at the end — it&apos;s faster than uploading here.
-        </p>
+        <p className="mt-3 text-xs leading-relaxed text-ink-faint">{t("form.linkNote")}</p>
       </div>
 
       <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2">
         <div>
           <label htmlFor="category" className={fieldLabel}>
-            03 — CATEGORY
+            {t("form.categoryLabel")}
           </label>
           <select
             id="category"
@@ -114,59 +108,59 @@ export default function RequestForm({
             className={`${fieldBase} appearance-none`}
           >
             <option value="" disabled>
-              Select a category
+              {t("form.categoryPlaceholder")}
             </option>
             {categories.map((c) => (
               <option key={c.slug} value={c.slug}>
-                {c.navLabel}
+                {t(`categories.${c.slug}.navLabel`)}
               </option>
             ))}
-            <option value="other">OTHER</option>
+            <option value="other">{t("form.categoryOther")}</option>
           </select>
         </div>
 
         <div>
           <label htmlFor="budget" className={fieldLabel}>
-            04 — BUDGET
+            {t("form.budgetLabel")}
           </label>
           <input
             id="budget"
             name="budget"
             type="text"
-            placeholder="Approximate budget"
+            placeholder={t("form.budgetPlaceholder")}
             className={fieldBase}
           />
         </div>
 
         <div>
           <label htmlFor="quantity" className={fieldLabel}>
-            05 — QUANTITY
+            {t("form.quantityLabel")}
           </label>
           <input
             id="quantity"
             name="quantity"
             type="text"
-            placeholder="e.g. 1, or bulk order"
+            placeholder={t("form.quantityPlaceholder")}
             className={fieldBase}
           />
         </div>
 
         <div>
           <label htmlFor="destination" className={fieldLabel}>
-            06 — DESTINATION COUNTRY
+            {t("form.destinationLabel")}
           </label>
           <input
             id="destination"
             name="destination"
             type="text"
-            placeholder="Where should this be delivered?"
+            placeholder={t("form.destinationPlaceholder")}
             className={fieldBase}
           />
         </div>
 
         <div>
           <label htmlFor="deadline" className={fieldLabel}>
-            07 — DEADLINE
+            {t("form.deadlineLabel")}
           </label>
           <input id="deadline" name="deadline" type="date" className={fieldBase} />
         </div>
@@ -174,13 +168,13 @@ export default function RequestForm({
 
       <div>
         <label htmlFor="details" className={fieldLabel}>
-          08 — ADDITIONAL DETAILS
+          {t("form.detailsLabel")}
         </label>
         <textarea
           id="details"
           name="details"
           rows={3}
-          placeholder="Anything else we should know?"
+          placeholder={t("form.detailsPlaceholder")}
           className={`${fieldBase} resize-none`}
         />
       </div>
@@ -188,13 +182,13 @@ export default function RequestForm({
       <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className={fieldLabel}>
-            09 — FULL NAME
+            {t("form.nameLabel")}
           </label>
           <input id="name" name="name" type="text" required className={fieldBase} />
         </div>
         <div>
           <label htmlFor="contact" className={fieldLabel}>
-            10 — EMAIL OR WHATSAPP
+            {t("form.contactLabel")}
           </label>
           <input id="contact" name="contact" type="text" required className={fieldBase} />
         </div>
@@ -206,18 +200,18 @@ export default function RequestForm({
           disabled={status === "submitting"}
           className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-ink px-8 py-4 text-sm font-semibold tracking-[0.14em] text-bg transition-transform duration-300 hover:scale-[1.01] disabled:opacity-60 sm:w-auto"
         >
-          {status === "submitting" ? "SENDING…" : "SUBMIT REQUEST →"}
+          {status === "submitting" ? t("form.submitting") : t("form.submitLabel")}
         </button>
         {status === "error" && (
           <p className="text-sm text-ink-dim">
-            Something went wrong. Please try again, or message us directly on{" "}
+            {t("form.errorText")}{" "}
             <a
               href={site.contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
-              WhatsApp
+              {t("form.errorLinkText")}
             </a>
             .
           </p>

@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 import Container from "./Container";
 import Mark from "./Mark";
 import MobileMenu from "./MobileMenu";
@@ -11,6 +11,7 @@ import { categories } from "@/lib/categories";
 import { ArrowIcon } from "./icons";
 
 export default function Header() {
+  const t = useTranslations();
   const [menuOpen, setMenuOpen] = useState(false);
   const [categoriesOpen, setCategoriesOpen] = useState(false);
   const pathname = usePathname();
@@ -33,7 +34,7 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-50 border-b border-line bg-bg/80 backdrop-blur-md">
         <Container className="flex h-16 items-center justify-between md:h-20">
-          <Link href="/" aria-label="BLACK VISION — Home" className="shrink-0">
+          <Link href="/" aria-label={t("common.homeAriaLabel")} className="shrink-0">
             <Mark size={26} className="[&_span]:hidden sm:[&_span]:inline-flex" />
           </Link>
 
@@ -49,7 +50,7 @@ export default function Header() {
                 aria-expanded={categoriesOpen}
                 onClick={() => setCategoriesOpen((v) => !v)}
               >
-                CATEGORIES
+                {t("common.categories")}
                 <ArrowIcon className="size-3 rotate-90" />
               </button>
               <div
@@ -68,7 +69,7 @@ export default function Header() {
                       href={`/${c.slug}`}
                       className="flex items-center justify-between rounded-sm px-3 py-2.5 text-sm text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink"
                     >
-                      {c.navLabel}
+                      {t(`categories.${c.slug}.navLabel`)}
                     </Link>
                   ))}
                   <div className="my-1 bv-hairline" />
@@ -76,7 +77,7 @@ export default function Header() {
                     href="/custom-request"
                     className="flex items-center justify-between rounded-sm px-3 py-2.5 text-sm text-ink-dim transition-colors hover:bg-surface-2 hover:text-ink"
                   >
-                    CUSTOM REQUEST
+                    {t("common.customRequest")}
                   </Link>
                 </div>
               </div>
@@ -88,7 +89,7 @@ export default function Header() {
                 href={item.href}
                 className="bv-eyebrow bv-link-underline text-ink"
               >
-                {item.label}
+                {t(`nav.${item.key}`)}
               </Link>
             ))}
           </nav>
@@ -98,17 +99,17 @@ export default function Header() {
               href="/custom-request"
               className="bv-btn-sweep hidden items-center gap-2 rounded-sm border border-ink px-4 py-2.5 text-xs font-semibold tracking-[0.14em] text-ink lg:inline-flex"
             >
-              SEND A REQUEST
+              {t("common.sendARequest")}
             </Link>
             <Link
               href="/custom-request"
               className="inline-flex min-h-11 items-center rounded-sm border border-ink px-4 text-[0.65rem] font-semibold tracking-[0.1em] text-ink lg:hidden"
             >
-              REQUEST
+              {t("common.request")}
             </Link>
             <button
               type="button"
-              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              aria-label={menuOpen ? t("common.closeMenu") : t("common.openMenu")}
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen((v) => !v)}
               className="flex size-11 flex-col items-center justify-center gap-[5px] lg:hidden"

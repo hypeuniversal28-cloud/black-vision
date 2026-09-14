@@ -1,10 +1,13 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { processSteps } from "@/lib/process";
+import { useTranslations } from "next-intl";
+import { type ProcessStep } from "@/lib/process";
 import { useMediaQuery } from "@/lib/useMediaQuery";
 
 export default function ProcessSteps({ compact = false }: { compact?: boolean }) {
+  const t = useTranslations();
+  const processSteps = t.raw("process.steps") as ProcessStep[];
   const reducedMotion = useMediaQuery("(prefers-reduced-motion: reduce)");
   const [reached, setReached] = useState(reducedMotion ? processSteps.length : 0);
   const itemRefs = useRef<Array<HTMLLIElement | null>>([]);
