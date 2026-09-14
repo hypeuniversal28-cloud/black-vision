@@ -63,26 +63,29 @@ export default function RevealText({
   className = "",
   delay = 0,
   stagger = 55,
+  dir,
 }: {
   text: string;
   as?: Tag;
   className?: string;
   delay?: number;
   stagger?: number;
+  /** Override text direction — e.g. "ltr" for a Latin brand name inside an RTL page. */
+  dir?: "ltr" | "rtl";
 }) {
   const { ref, visible } = useWordReveal();
   const content = buildContent(text, delay, stagger, visible);
 
   if (as === "h2") {
     return (
-      <h2 ref={ref} className={className}>
+      <h2 ref={ref} className={className} dir={dir}>
         {content}
       </h2>
     );
   }
 
   return (
-    <h1 ref={ref} className={className}>
+    <h1 ref={ref} className={className} dir={dir}>
       {content}
     </h1>
   );

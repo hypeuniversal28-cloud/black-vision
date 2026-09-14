@@ -56,6 +56,7 @@ export default async function Home({
           <RevealText
             text={site.name}
             delay={60}
+            dir="ltr"
             className="text-[clamp(3rem,11vw,6.5rem)] font-semibold leading-[0.94] tracking-tight text-ink"
           />
           <Reveal delay={260}>

@@ -40,6 +40,36 @@ Copy `.env.example` to `.env.local` and fill it in:
 hosting provider's environment settings too, or the form will return an error in
 production. This is the most common launch-day mistake.
 
+## Languages
+
+The site is available in 5 languages: **English** (default), **Arabic** (RTL),
+**Chinese (Simplified)**, **French** and **Spanish**.
+
+- **Auto-detection** — a visitor's browser language is read once, server-side,
+  on their first request (`middleware.ts` via `next-intl`). If it matches a
+  supported language the site opens in it silently; otherwise it falls back to
+  English. No popup, no interruption.
+- **Manual override** — a discreet text-only switcher (language names, no
+  flags) sits in the footer and in the mobile menu. A visitor's choice is
+  remembered in a cookie for their next visit.
+- **URLs** — English is unprefixed (`/cars`); other languages get a prefix
+  (`/fr/cars`, `/ar/cars`, …). Every page also declares `hreflang` alternates
+  in `sitemap.xml` for search engines.
+- **Adding or editing copy** — all translatable text lives in `messages/*.json`
+  (one file per language, same key structure in all five — verified by a
+  script during this build). Structural data (category slugs, icons, nav
+  hrefs) stays in `lib/*.ts`; only the display text was moved.
+- **Adding a 6th language** — add its code to `locales` in `i18n/routing.ts`
+  and add a matching `messages/<code>.json` with the same keys as
+  `messages/en.json`. Arabic is the only right-to-left language today; a new
+  RTL language needs adding to `rtlLocales` in the same file.
+
+**Known limitation:** Arabic gets a full `dir="rtl"` page direction, mirrored
+arrows and mirrored major layout blocks, but not every micro-detail (some
+hover animations, a couple of hairline accents) has been individually
+mirrored — those still animate in their original direction. Worth a design
+pass if Arabic becomes a primary market rather than a secondary one.
+
 ## Before going live
 
 - [ ] **Domain** — `site.url` in `lib/site.ts` is still `blackvision.com`. It feeds
@@ -54,10 +84,15 @@ production. This is the most common launch-day mistake.
 
 ## Structure
 
-- `app/` — one folder per route, plus `sitemap.ts`, `robots.ts`, `opengraph-image.tsx`
-- `components/` — `Header`, `MobileMenu`, `Footer`, `RequestForm`, `CategoryPageTemplate`, and the rest
+- `app/[locale]/` — one folder per route, nested under the locale segment
+- `app/` (root) — `sitemap.ts`, `robots.ts`, `opengraph-image.tsx`, favicons — locale-independent
+- `app/api/request/` — the WhatsApp-routing endpoint, outside the locale tree
+- `i18n/` — `routing.ts` (locale list, default, RTL list), `navigation.ts` (locale-aware `Link`/`router`), `request.ts` (message loader)
+- `messages/` — `en.json`, `ar.json`, `zh.json`, `fr.json`, `es.json` — all translatable copy
+- `middleware.ts` — detects the visitor's language and persists their choice in a cookie
+- `components/` — `Header`, `MobileMenu`, `Footer`, `LanguageSwitcher`, `TrustPoints`, `RequestForm`, `CategoryPageTemplate`, and the rest
 - `components/graphics/` — `HeroGlow` (scroll parallax), `RouteMap` (animated China→Dubai route)
-- `lib/` — `categories.ts`, `process.ts`, `faq.ts`, `nav.ts`, `site.ts` (single source of truth for shared copy)
+- `lib/` — `categories.ts`, `process.ts`, `faq.ts`, `nav.ts`, `site.ts` — structural data only; display text lives in `messages/`
 - `public/brand/` — logo mark, favicons and app icons
 
 ## Notes
