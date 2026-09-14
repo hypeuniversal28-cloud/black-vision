@@ -52,7 +52,7 @@
     "eyebrow": "POURQUOI BLACK VISION",
     "title": "Comment nous protégeons votre demande.",
     "points": [
-      { "title": "UNE PERSONNE, PAS UNE FILE D'ATTENTE", "body": "Chaque demande est lue et traitée directement — pas par un robot, pas par un système de tickets." },
+      { "title": "UNE VRAIE ÉQUIPE, PAS UN ROBOT", "body": "Chaque demande est lue et traitée personnellement par un membre de notre équipe — jamais par un chatbot, jamais par une file d'attente automatisée." },
       { "title": "VÉRIFIÉ AVANT D'ÊTRE CHIFFRÉ", "body": "Ce que nous trouvons est vérifié — fournisseur, état, documentation — par rapport à votre demande, avant que vous ne receviez un prix." },
       { "title": "RIEN N'AVANCE SANS VOUS", "body": "Vous recevez d'abord le devis. L'achat ne commence qu'une fois que vous l'avez validé." },
       { "title": "SUR PLACE, PAS UN ANNUAIRE", "body": "Nous opérons directement en Chine et à Dubaï — pas via une liste de contacts." }
@@ -180,6 +180,7 @@
   "faqItems": [
     { "question": "Que peut sourcer BLACK VISION ?", "answer": "Voitures, mode, montres, produits pour la maison et l'intérieur, équipements professionnels, matériaux de construction, électronique, et toute demande sur mesure en dehors de ces catégories. Si cela peut être sourcé, dites-nous ce dont vous avez besoin." },
     { "question": "Où opérez-vous ?", "answer": "Nous opérons sur place en Chine et à Dubaï, en coordination avec des clients à l'international et une livraison dans le monde entier." },
+    { "question": "Ma demande est-elle traitée par une vraie personne ?", "answer": "Oui, toujours. Un membre de notre équipe lit et répond personnellement à chaque demande — aucun chatbot, aucun système automatisé entre vous et nous." },
     { "question": "Travaillez-vous avec des particuliers ?", "answer": "Oui. Les clients privés soumettent une demande de la même manière que les entreprises, et elle est traitée directement par notre équipe." },
     { "question": "Travaillez-vous avec des entreprises ?", "answer": "Oui. Nous accompagnons les entreprises qui sourcent des équipements, des machines, de la production OEM, de la marque privée et des commandes en gros." },
     { "question": "Pouvez-vous sourcer des produits sur mesure ?", "answer": "Oui. Les demandes sur mesure et les pièces difficiles à trouver sont au cœur de notre activité — soumettez une demande avec le plus de détails possible." },

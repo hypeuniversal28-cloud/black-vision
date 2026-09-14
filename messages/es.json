@@ -52,7 +52,7 @@
     "eyebrow": "POR QUÉ BLACK VISION",
     "title": "Cómo protegemos tu solicitud.",
     "points": [
-      { "title": "UNA PERSONA, NO UNA COLA", "body": "Cada solicitud se lee y se responde directamente — no por un bot, no por un sistema de tickets." },
+      { "title": "UN EQUIPO REAL, NO UN BOT", "body": "Cada solicitud es leída y respondida personalmente por un miembro de nuestro equipo — nunca por un chatbot, nunca por una cola automatizada." },
       { "title": "VERIFICADO ANTES DE COTIZAR", "body": "Lo que encontramos se comprueba — proveedor, estado, documentación — frente a lo que pediste, antes de que veas un precio." },
       { "title": "NADA AVANZA SIN TI", "body": "Primero ves la cotización. La compra solo comienza cuando la apruebas." },
       { "title": "SOBRE EL TERRENO, NO UN DIRECTORIO", "body": "Operamos directamente en China y Dubái — no a través de una lista de contactos." }
@@ -180,6 +180,7 @@
   "faqItems": [
     { "question": "¿Qué puede conseguir BLACK VISION?", "answer": "Automóviles, moda, relojes, productos para el hogar e interiorismo, equipos empresariales, materiales de construcción, electrónica, y solicitudes personalizadas fuera de estas categorías. Si se puede conseguir, cuéntanos qué necesitas." },
     { "question": "¿Dónde opera BLACK VISION?", "answer": "Operamos sobre el terreno en China y Dubái, coordinando con clientes a nivel internacional y entregas en todo el mundo." },
+    { "question": "¿Mi solicitud la gestiona una persona real?", "answer": "Sí, siempre. Un miembro de nuestro equipo lee y responde personalmente a cada solicitud — no hay chatbot ni sistema automatizado entre tú y nosotros." },
     { "question": "¿Trabaja BLACK VISION con particulares?", "answer": "Sí. Los clientes particulares envían una solicitud de la misma manera que las empresas, y nuestro equipo la gestiona directamente." },
     { "question": "¿Trabaja BLACK VISION con empresas?", "answer": "Sí. Apoyamos a empresas que buscan equipos, maquinaria, producción OEM, marca privada y pedidos al por mayor." },
     { "question": "¿Pueden conseguir productos personalizados?", "answer": "Sí. Las solicitudes personalizadas y las piezas difíciles de encontrar son una parte esencial de lo que hacemos — envía tu solicitud con el mayor detalle posible." },
