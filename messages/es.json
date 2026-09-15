@@ -52,10 +52,10 @@
     "eyebrow": "POR QUÉ BLACK VISION",
     "title": "Cómo protegemos tu solicitud.",
     "points": [
-      { "title": "UN EQUIPO REAL, NO UN BOT", "body": "Cada solicitud es leída y respondida personalmente por un miembro de nuestro equipo — nunca por un chatbot, nunca por una cola automatizada." },
-      { "title": "VERIFICADO ANTES DE COTIZAR", "body": "Lo que encontramos se comprueba — proveedor, estado, documentación — frente a lo que pediste, antes de que veas un precio." },
+      { "title": "UN EQUIPO REAL, NO UN BOT", "body": "Cada solicitud es leída y respondida personalmente por un miembro de nuestro equipo. Nunca por un chatbot, nunca por una cola automatizada." },
+      { "title": "VERIFICADO ANTES DE COTIZAR", "body": "Comprobamos todo lo que encontramos frente a lo que pediste (proveedor, estado, documentación) antes de que veas un precio." },
       { "title": "NADA AVANZA SIN TI", "body": "Primero ves la cotización. La compra solo comienza cuando la apruebas." },
-      { "title": "SOBRE EL TERRENO, NO UN DIRECTORIO", "body": "Operamos directamente en China y Dubái — no a través de una lista de contactos." }
+      { "title": "SOBRE EL TERRENO, NO UN DIRECTORIO", "body": "Operamos directamente en China y Dubái, no a través de una lista de contactos." }
     ]
   },
   "cta": {
@@ -77,7 +77,7 @@
       "navLabel": "AUTOMÓVILES",
       "heroTitle": "AUTOMÓVILES",
       "heroSub": "Sourcing privado de vehículos en mercados internacionales.",
-      "intro": "Esto no es un marketplace. No hay inventario que explorar ni precios publicados — cada vehículo se busca según tu solicitud específica, y se verifica antes de cotizarlo.",
+      "intro": "Esto no es un marketplace. No hay inventario que explorar ni precios publicados. Cada vehículo se busca según tu solicitud específica, y se verifica antes de cotizarlo.",
       "items": ["Automóviles de Lujo", "Superdeportivos", "SUV", "Vehículos Premium", "Vehículos Comerciales", "Solicitudes Personalizadas"],
       "focus": ["Búsqueda", "Sourcing", "Disponibilidad", "Verificación", "Negociación", "Logística"],
       "ctaLabel": "BUSCAR UN VEHÍCULO →",
@@ -100,7 +100,7 @@
       "navLabel": "RELOJES",
       "heroTitle": "RELOJES",
       "heroSub": "Encuentra relojes excepcionales mediante sourcing privado.",
-      "intro": "Trabajamos a partir de tu solicitud — modelo, estado, documentación — y verificamos lo que encontramos antes de cotizarlo.",
+      "intro": "Trabajamos a partir de tu solicitud (modelo, estado, documentación) y verificamos lo que encontramos antes de cotizarlo.",
       "items": ["Relojes de Lujo", "Modelos Raros", "Nuevos", "De Segunda Mano", "Solicitudes Especiales"],
       "focus": ["Disponibilidad", "Estado", "Documentación", "Sourcing", "Verificación"],
       "ctaLabel": "SOLICITAR UN RELOJ →",
@@ -123,7 +123,7 @@
       "navLabel": "EMPRESAS",
       "heroTitle": "EMPRESAS",
       "heroSub": "Busca productos, equipos y proveedores para tu empresa.",
-      "intro": "Para empresas que compran a gran escala — maquinaria, producción OEM, marca privada o suministro al por mayor — coordinamos todo el proceso de principio a fin.",
+      "intro": "Para empresas que compran a gran escala, ya sea maquinaria, producción OEM, marca privada o suministro al por mayor, coordinamos todo el proceso de principio a fin.",
       "items": ["Maquinaria", "Equipos", "Suministros Comerciales", "OEM", "Marca Privada", "Embalaje", "Pedidos al Por Mayor"],
       "ctaLabel": "INICIAR UNA SOLICITUD EMPRESARIAL →",
       "metaTitle": "BLACK VISION | Sourcing Empresarial Global",
@@ -155,7 +155,7 @@
   },
   "customRequestCategory": {
     "navLabel": "SOLICITUD PERSONALIZADA",
-    "homeBlurb": "Algo más — cuéntanos qué necesitas."
+    "homeBlurb": "Algo más. Cuéntanos qué necesitas."
   },
   "process": {
     "steps": [
@@ -180,10 +180,10 @@
   "faqItems": [
     { "question": "¿Qué puede conseguir BLACK VISION?", "answer": "Automóviles, moda, relojes, productos para el hogar e interiorismo, equipos empresariales, materiales de construcción, electrónica, y solicitudes personalizadas fuera de estas categorías. Si se puede conseguir, cuéntanos qué necesitas." },
     { "question": "¿Dónde opera BLACK VISION?", "answer": "Operamos sobre el terreno en China y Dubái, coordinando con clientes a nivel internacional y entregas en todo el mundo." },
-    { "question": "¿Mi solicitud la gestiona una persona real?", "answer": "Sí, siempre. Un miembro de nuestro equipo lee y responde personalmente a cada solicitud — no hay chatbot ni sistema automatizado entre tú y nosotros." },
+    { "question": "¿Mi solicitud la gestiona una persona real?", "answer": "Sí, siempre. Un miembro de nuestro equipo lee y responde personalmente a cada solicitud. No hay chatbot ni sistema automatizado entre tú y nosotros." },
     { "question": "¿Trabaja BLACK VISION con particulares?", "answer": "Sí. Los clientes particulares envían una solicitud de la misma manera que las empresas, y nuestro equipo la gestiona directamente." },
     { "question": "¿Trabaja BLACK VISION con empresas?", "answer": "Sí. Apoyamos a empresas que buscan equipos, maquinaria, producción OEM, marca privada y pedidos al por mayor." },
-    { "question": "¿Pueden conseguir productos personalizados?", "answer": "Sí. Las solicitudes personalizadas y las piezas difíciles de encontrar son una parte esencial de lo que hacemos — envía tu solicitud con el mayor detalle posible." },
+    { "question": "¿Pueden conseguir productos personalizados?", "answer": "Sí. Las solicitudes personalizadas y las piezas difíciles de encontrar son una parte esencial de lo que hacemos. Envía tu solicitud con el mayor detalle posible." },
     { "question": "¿Cómo funcionan los precios?", "answer": "El precio depende del producto, el proveedor y la cantidad. Una vez que localizamos y verificamos lo que buscas, recibes una cotización clara antes de que nada avance." },
     { "question": "¿Cómo funciona el pago?", "answer": "Las condiciones de pago se confirman directamente contigo una vez aceptada la cotización, antes de proceder con la compra." },
     { "question": "¿Cómo funciona la entrega?", "answer": "Coordinamos la logística y la entrega hasta tu destino una vez confirmada la compra, y te mantenemos informado durante todo el proceso." },
@@ -199,9 +199,9 @@
       "heroSub": "BLACK VISION nació de una idea simple: encontrar el producto adecuado no debería requerir conocer a las personas adecuadas.",
       "ideaEyebrow": "LA IDEA",
       "ideaTitle": "Una oficina de acceso privado, no un marketplace.",
-      "ideaSub": "Los clientes no vienen a explorar un catálogo. Vienen a decirnos qué necesitan — y nosotros lo encontramos, lo verificamos y se lo entregamos.",
-      "p1": "Trabajamos entre China y Dubái — buscando productos, proveedores y oportunidades para clientes particulares y empresas de todo el mundo.",
-      "p2": "Eso incluye automóviles, moda, relojes, interiorismo, equipos empresariales, materiales de construcción y electrónica — y cualquier otra cosa que un cliente nos traiga fuera de estas categorías.",
+      "ideaSub": "Los clientes no vienen a explorar un catálogo. Vienen a decirnos qué necesitan, y nosotros lo encontramos, lo verificamos y se lo entregamos.",
+      "p1": "Trabajamos entre China y Dubái, buscando productos, proveedores y oportunidades para clientes particulares y empresas de todo el mundo.",
+      "p2": "Eso incluye automóviles, moda, relojes, interiorismo, equipos empresariales, materiales de construcción y electrónica, y cualquier otra cosa que un cliente nos traiga fuera de estas categorías.",
       "p3": "Trabajamos con particulares que buscan una sola pieza, y con empresas que compran a gran escala. El proceso es el mismo en ambos casos: solicitud, búsqueda, verificación, cotización, compra, entrega.",
       "approachEyebrow": "ENFOQUE",
       "approachTitle": "Qué significa el acceso, en la práctica.",
@@ -215,13 +215,13 @@
     },
     "howItWorks": {
       "metaTitle": "BLACK VISION | Cómo Funciona",
-      "metaDescription": "De la solicitud a la entrega — cómo BLACK VISION busca, verifica y coordina compras en China y Dubái.",
+      "metaDescription": "De la solicitud a la entrega: cómo BLACK VISION busca, verifica y coordina compras en China y Dubái.",
       "heroEyebrow": "PROCESO",
       "heroTitle": "DE LA SOLICITUD\nA LA ENTREGA.",
       "heroSub": "Cada solicitud sigue el mismo proceso riguroso, desde el primer mensaje hasta la entrega final.",
       "scopeEyebrow": "ALCANCE",
       "scopeTitle": "Qué gestionamos",
-      "scopeSub": "Solo lo que realmente podemos entregar — nada se promete más allá de eso."
+      "scopeSub": "Solo lo que realmente podemos entregar. Nada se promete más allá de eso."
     },
     "contact": {
       "metaTitle": "BLACK VISION | Contacto",
@@ -231,7 +231,7 @@
     },
     "customRequest": {
       "metaTitle": "BLACK VISION | Solicitud de Sourcing Privado",
-      "metaDescription": "Cuéntale a BLACK VISION qué estás buscando — nosotros nos encargamos del resto.",
+      "metaDescription": "Cuéntale a BLACK VISION qué estás buscando. Nosotros nos encargamos del resto.",
       "eyebrow": "SOLICITUD PERSONALIZADA",
       "title": "¿NO ENCUENTRAS LO QUE BUSCAS?",
       "sub": "Cuéntanos qué necesitas. Nosotros nos encargamos del resto."
@@ -241,16 +241,16 @@
       "metaDescription": "Respuestas a preguntas comunes sobre sourcing, precios, pago y entrega con BLACK VISION.",
       "eyebrow": "FAQ",
       "title": "Preguntas, respondidas.",
-      "sub": "Respuestas breves y directas — sin garantías inventadas."
+      "sub": "Respuestas breves y directas. Sin garantías inventadas."
     },
     "privacy": {
       "metaTitle": "BLACK VISION | Política de Privacidad",
       "metaDescription": "Cómo BLACK VISION recopila, utiliza y protege tu información.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Política de Privacidad",
-      "heroSub": "Última actualización — pendiente de confirmar antes del lanzamiento.",
+      "heroSub": "Última actualización: pendiente de confirmar antes del lanzamiento.",
       "sections": [
-        { "title": "Información que recopilamos", "body": "Cuando envías una solicitud o nos contactas, recopilamos los datos que proporcionas — como tu nombre, correo electrónico o número de WhatsApp, y los detalles de lo que buscas, incluido cualquier archivo o enlace que decidas compartir." },
+        { "title": "Información que recopilamos", "body": "Cuando envías una solicitud o nos contactas, recopilamos los datos que proporcionas, como tu nombre, correo electrónico o número de WhatsApp, y los detalles de lo que buscas, incluido cualquier archivo o enlace que decidas compartir." },
         { "title": "Cómo la utilizamos", "body": "Utilizamos esta información para revisar tu solicitud, buscar y verificar lo que necesitas, preparar una cotización, y comunicarnos contigo sobre tu solicitud." },
         { "title": "Con quién la compartimos", "body": "Compartimos los detalles de la solicitud con proveedores o socios solo cuando es necesario para atenderla, y nunca vendemos tu información personal." },
         { "title": "Tus derechos", "body": "Puedes solicitarnos acceder, corregir o eliminar la información que tenemos sobre ti en cualquier momento, contactándonos directamente." }
@@ -262,9 +262,9 @@
       "metaDescription": "Las condiciones que rigen el uso del servicio de sourcing de BLACK VISION.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Términos y Condiciones",
-      "heroSub": "Última actualización — pendiente de confirmar antes del lanzamiento.",
+      "heroSub": "Última actualización: pendiente de confirmar antes del lanzamiento.",
       "sections": [
-        { "title": "Nuestro servicio", "body": "BLACK VISION busca productos, proveedores y oportunidades bajo pedido. Enviar una solicitud no garantiza la disponibilidad — confirmamos lo que podemos conseguir y proporcionamos una cotización antes de continuar." },
+        { "title": "Nuestro servicio", "body": "BLACK VISION busca productos, proveedores y oportunidades bajo pedido. Enviar una solicitud no garantiza la disponibilidad. Confirmamos lo que podemos conseguir y proporcionamos una cotización antes de continuar." },
         { "title": "Cotizaciones y pago", "body": "Las cotizaciones se confirman directamente contigo y solo son válidas durante el periodo indicado en el momento. Las condiciones de pago se acuerdan antes de iniciar la compra." },
         { "title": "Entrega", "body": "Los plazos de entrega dependen del producto, el proveedor y el destino, y se comunican una vez confirmada la compra." },
         { "title": "Limitación de responsabilidad", "body": "BLACK VISION actúa como intermediario de sourcing y compra. Actuamos con la debida diligencia al verificar proveedores y productos, pero no fabricamos los bienes que conseguimos." }
@@ -276,7 +276,7 @@
       "metaDescription": "Cómo utiliza BLACK VISION las cookies en este sitio web.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Cookies",
-      "heroSub": "Última actualización — pendiente de confirmar antes del lanzamiento.",
+      "heroSub": "Última actualización: pendiente de confirmar antes del lanzamiento.",
       "sections": [
         { "title": "Cookies esenciales", "body": "Utilizamos un conjunto mínimo de cookies necesarias para que este sitio web funcione correctamente, incluida la memorización del idioma elegido." },
         { "title": "Analítica", "body": "Si en el futuro se añaden herramientas de analítica, esta página se actualizará para describir qué se recopila y cómo desactivarlo." }
@@ -295,7 +295,7 @@
     "needPlaceholder": "Describe el producto, la marca, el modelo o las especificaciones…",
     "linkLabel": "02 — ENLACE DE REFERENCIA",
     "linkPlaceholder": "Pega un enlace al producto, anuncio o referencia",
-    "linkNote": "¿Tienes fotos o documentos? Envíalos directamente en la conversación de WhatsApp al final — es más rápido que subirlos aquí.",
+    "linkNote": "¿Tienes fotos o documentos? Envíalos directamente en la conversación de WhatsApp al final. Es más rápido que subirlos aquí.",
     "categoryLabel": "03 — CATEGORÍA",
     "categoryPlaceholder": "Selecciona una categoría",
     "categoryOther": "OTRA",
@@ -316,7 +316,7 @@
     "errorLinkText": "WhatsApp",
     "confirmEyebrow": "ÚLTIMO PASO",
     "confirmTitle": "TU SOLICITUD ESTÁ LISTA.",
-    "confirmBody": "Toca a continuación para enviárnosla por WhatsApp. Todo lo que has escrito ya está redactado — solo tienes que enviarlo.",
+    "confirmBody": "Toca a continuación para enviárnosla por WhatsApp. Todo lo que has escrito ya está redactado. Solo tienes que enviarlo.",
     "sendButton": "ENVIAR POR WHATSAPP →",
     "confirmNote": "Puedes adjuntar fotos o documentos directamente en la conversación."
   },

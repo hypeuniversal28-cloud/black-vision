@@ -54,11 +54,11 @@
     "points": [
       {
         "title": "A REAL TEAM, NOT A BOT",
-        "body": "Every request is read and answered personally by a member of our team — never a chatbot, never an automated queue."
+        "body": "Every request is read and answered personally by a member of our team. Never a chatbot, never an automated queue."
       },
       {
         "title": "VERIFIED BEFORE IT'S QUOTED",
-        "body": "What we find is checked — supplier, condition, documentation — against what you asked for, before you see a price."
+        "body": "We check everything we find against your request (supplier, condition, documentation) before you ever see a price."
       },
       {
         "title": "NOTHING MOVES WITHOUT YOU",
@@ -66,7 +66,7 @@
       },
       {
         "title": "ON THE GROUND, NOT A DIRECTORY",
-        "body": "We operate directly in China and Dubai — not through a list of contacts."
+        "body": "We operate directly in China and Dubai, not through a list of contacts."
       }
     ]
   },
@@ -89,7 +89,7 @@
       "navLabel": "CARS",
       "heroTitle": "CARS",
       "heroSub": "Private sourcing for vehicles across international markets.",
-      "intro": "This is not a marketplace. There is no inventory to browse and no listed prices — every vehicle is sourced against your specific request, then verified before anything is quoted.",
+      "intro": "This is not a marketplace. There is no inventory to browse and no listed prices. Every vehicle is sourced against your specific request, then verified before anything is quoted.",
       "items": ["Luxury Cars", "Supercars", "SUVs", "Premium Vehicles", "Commercial Vehicles", "Custom Requests"],
       "focus": ["Discovery", "Sourcing", "Availability", "Verification", "Negotiation", "Logistics"],
       "ctaLabel": "SOURCE A VEHICLE →",
@@ -112,7 +112,7 @@
       "navLabel": "WATCHES",
       "heroTitle": "WATCHES",
       "heroSub": "Source exceptional watches through private sourcing.",
-      "intro": "We work against your request — model, condition, documentation — and verify what we find before it is quoted.",
+      "intro": "We work against your request (model, condition, documentation) and verify what we find before it is quoted.",
       "items": ["Luxury Watches", "Rare Models", "New", "Pre-Owned", "Special Requests"],
       "focus": ["Availability", "Condition", "Documentation", "Sourcing", "Verification"],
       "ctaLabel": "REQUEST A WATCH →",
@@ -135,7 +135,7 @@
       "navLabel": "BUSINESS",
       "heroTitle": "BUSINESS",
       "heroSub": "Source products, equipment and suppliers for your business.",
-      "intro": "For companies sourcing at scale — machinery, OEM production, private label or bulk supply — we coordinate the process end to end.",
+      "intro": "For companies sourcing at scale, whether machinery, OEM production, private label or bulk supply, we coordinate the process end to end.",
       "items": ["Machinery", "Equipment", "Commercial Supplies", "OEM", "Private Label", "Packaging", "Bulk Orders"],
       "ctaLabel": "START A BUSINESS REQUEST →",
       "metaTitle": "BLACK VISION | Global Business Sourcing",
@@ -167,7 +167,7 @@
   },
   "customRequestCategory": {
     "navLabel": "CUSTOM REQUEST",
-    "homeBlurb": "Anything else — tell us what you need."
+    "homeBlurb": "Anything else. Tell us what you need."
   },
   "process": {
     "steps": [
@@ -192,10 +192,10 @@
   "faqItems": [
     { "question": "What can BLACK VISION source?", "answer": "Cars, fashion, watches, home and interior products, business equipment, construction materials, electronics, and custom requests outside these categories. If it can be sourced, tell us what you need." },
     { "question": "Where do you operate?", "answer": "We operate on the ground in China and Dubai, coordinating with clients internationally and delivery worldwide." },
-    { "question": "Is my request handled by a real person?", "answer": "Yes, always. A member of our team reads and responds to every request personally — there's no chatbot and no automated system between you and us." },
+    { "question": "Is my request handled by a real person?", "answer": "Yes, always. A member of our team reads and responds to every request personally. There's no chatbot and no automated system between you and us." },
     { "question": "Do you work with individuals?", "answer": "Yes. Private clients submit a request the same way businesses do, and it is handled directly by our team." },
     { "question": "Do you work with businesses?", "answer": "Yes. We support companies sourcing equipment, machinery, OEM production, private label and bulk orders." },
-    { "question": "Can you source custom products?", "answer": "Yes. Custom and hard-to-find requests are a core part of what we do — submit a request with as much detail as you can." },
+    { "question": "Can you source custom products?", "answer": "Yes. Custom and hard-to-find requests are a core part of what we do. Submit a request with as much detail as you can." },
     { "question": "How does pricing work?", "answer": "Pricing depends on the product, supplier and quantity. Once we source and verify what you're looking for, you receive a clear quotation before anything moves forward." },
     { "question": "How does payment work?", "answer": "Payment terms are confirmed with you directly once a quotation is agreed, before we proceed with procurement." },
     { "question": "How does delivery work?", "answer": "We coordinate logistics and delivery to your destination once a purchase is confirmed, and keep you updated along the way." },
@@ -211,9 +211,9 @@
       "heroSub": "BLACK VISION was built around one idea: finding the right product should not require knowing the right people.",
       "ideaEyebrow": "THE IDEA",
       "ideaTitle": "A private access office, not a marketplace.",
-      "ideaSub": "Clients don't come to browse. They come to say what they need — and we find it, verify it, and bring it to them.",
-      "p1": "We work between China and Dubai — sourcing products, suppliers and opportunities for private clients and businesses around the world.",
-      "p2": "That means cars, fashion, watches, interiors, business equipment, construction materials and electronics — and anything else a client brings to us that falls outside those categories.",
+      "ideaSub": "Clients don't come to browse. They come to say what they need, and we find it, verify it, and bring it to them.",
+      "p1": "We work between China and Dubai, sourcing products, suppliers and opportunities for private clients and businesses around the world.",
+      "p2": "That means cars, fashion, watches, interiors, business equipment, construction materials and electronics, and anything else a client brings to us that falls outside those categories.",
       "p3": "We work with individuals sourcing a single piece, and with companies sourcing at scale. The process is the same either way: request, source, verify, quote, procure, deliver.",
       "approachEyebrow": "APPROACH",
       "approachTitle": "What access means, in practice.",
@@ -227,13 +227,13 @@
     },
     "howItWorks": {
       "metaTitle": "BLACK VISION | How It Works",
-      "metaDescription": "From request to delivery — how BLACK VISION sources, verifies and coordinates procurement across China and Dubai.",
+      "metaDescription": "From request to delivery: how BLACK VISION sources, verifies and coordinates procurement across China and Dubai.",
       "heroEyebrow": "PROCESS",
       "heroTitle": "FROM REQUEST\nTO DELIVERY.",
       "heroSub": "Every request follows the same disciplined process, from first message to final delivery.",
       "scopeEyebrow": "SCOPE",
       "scopeTitle": "What we handle",
-      "scopeSub": "Only what we can genuinely deliver — nothing promised beyond that."
+      "scopeSub": "Only what we can genuinely deliver. Nothing promised beyond that."
     },
     "contact": {
       "metaTitle": "BLACK VISION | Contact",
@@ -243,7 +243,7 @@
     },
     "customRequest": {
       "metaTitle": "BLACK VISION | Private Sourcing Request",
-      "metaDescription": "Tell BLACK VISION what you're looking for — we'll take it from there.",
+      "metaDescription": "Tell BLACK VISION what you're looking for. We'll take it from there.",
       "eyebrow": "CUSTOM REQUEST",
       "title": "CAN'T FIND WHAT YOU'RE LOOKING FOR?",
       "sub": "Tell us what you need. We'll take it from there."
@@ -253,16 +253,16 @@
       "metaDescription": "Answers to common questions about sourcing, pricing, payment and delivery with BLACK VISION.",
       "eyebrow": "FAQ",
       "title": "Questions, answered.",
-      "sub": "Short, direct answers — no invented guarantees."
+      "sub": "Short, direct answers. No invented guarantees."
     },
     "privacy": {
       "metaTitle": "BLACK VISION | Privacy Policy",
       "metaDescription": "How BLACK VISION collects, uses and protects your information.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Privacy Policy",
-      "heroSub": "Last updated — to be confirmed before launch.",
+      "heroSub": "Last updated: to be confirmed before launch.",
       "sections": [
-        { "title": "Information we collect", "body": "When you submit a request or contact us, we collect the details you provide — such as your name, email or WhatsApp number, and the specifics of what you're looking for, including any file or link you choose to share." },
+        { "title": "Information we collect", "body": "When you submit a request or contact us, we collect the details you provide, such as your name, email or WhatsApp number, and the specifics of what you're looking for, including any file or link you choose to share." },
         { "title": "How we use it", "body": "We use this information to review your request, source and verify what you're looking for, prepare a quotation, and communicate with you about your request." },
         { "title": "Sharing", "body": "We share request details with suppliers or partners only as necessary to fulfil your request, and do not sell your personal information." },
         { "title": "Your rights", "body": "You may ask us to access, correct or delete the information we hold about you at any time by contacting us directly." }
@@ -274,9 +274,9 @@
       "metaDescription": "The terms governing your use of BLACK VISION's sourcing service.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Terms",
-      "heroSub": "Last updated — to be confirmed before launch.",
+      "heroSub": "Last updated: to be confirmed before launch.",
       "sections": [
-        { "title": "Our service", "body": "BLACK VISION sources products, suppliers and opportunities on request. Submitting a request does not guarantee availability — we confirm what we can source and provide a quotation before anything proceeds." },
+        { "title": "Our service", "body": "BLACK VISION sources products, suppliers and opportunities on request. Submitting a request does not guarantee availability. We confirm what we can source and provide a quotation before anything proceeds." },
         { "title": "Quotations and payment", "body": "Quotations are confirmed with you directly and are only valid for the period stated at the time. Payment terms are agreed before procurement begins." },
         { "title": "Delivery", "body": "Delivery timelines depend on the product, supplier and destination, and are communicated once a purchase is confirmed." },
         { "title": "Limitation of liability", "body": "BLACK VISION acts as a sourcing and procurement intermediary. We take reasonable care in verifying suppliers and products, but do not manufacture the goods we source." }
@@ -288,7 +288,7 @@
       "metaDescription": "How BLACK VISION uses cookies on this website.",
       "heroEyebrow": "LEGAL",
       "heroTitle": "Cookies",
-      "heroSub": "Last updated — to be confirmed before launch.",
+      "heroSub": "Last updated: to be confirmed before launch.",
       "sections": [
         { "title": "Essential cookies", "body": "We use a minimal set of cookies required for this website to function correctly, including remembering your chosen language." },
         { "title": "Analytics", "body": "If analytics tools are added in future, this page will be updated to describe what is collected and how to opt out." }
@@ -307,7 +307,7 @@
     "needPlaceholder": "Describe the product, brand, model or specification…",
     "linkLabel": "02 — REFERENCE LINK",
     "linkPlaceholder": "Paste a link to the product, listing or reference",
-    "linkNote": "Have photos or documents? Send them straight into the WhatsApp conversation at the end — it's faster than uploading here.",
+    "linkNote": "Have photos or documents? Send them straight into the WhatsApp conversation at the end. It's faster than uploading here.",
     "categoryLabel": "03 — CATEGORY",
     "categoryPlaceholder": "Select a category",
     "categoryOther": "OTHER",
@@ -328,7 +328,7 @@
     "errorLinkText": "WhatsApp",
     "confirmEyebrow": "ONE LAST STEP",
     "confirmTitle": "YOUR REQUEST IS READY.",
-    "confirmBody": "Tap below to send it to us on WhatsApp. Everything you entered is already written out — you just press send.",
+    "confirmBody": "Tap below to send it to us on WhatsApp. Everything you entered is already written out. You just press send.",
     "sendButton": "SEND ON WHATSAPP →",
     "confirmNote": "You can attach photos or documents directly in the conversation."
   },
