@@ -2,9 +2,8 @@ export const site = {
   name: "BLACK VISION",
   positioning: "PRIVATE ACCESS",
   statement: ["YOU NEED IT.", "WE SOURCE IT."],
-  // TODO before launch: replace with the production domain.
   // Feeds metadata, sitemap.xml, robots.txt and social share previews.
-  url: "https://blackvision.com",
+  url: "https://primevgency.com",
   description:
     "Access to products, suppliers and opportunities across China and Dubai.",
   contact: {

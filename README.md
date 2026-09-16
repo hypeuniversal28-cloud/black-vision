@@ -70,11 +70,19 @@ hover animations, a couple of hairline accents) has been individually
 mirrored — those still animate in their original direction. Worth a design
 pass if Arabic becomes a primary market rather than a secondary one.
 
+## Deployment
+
+Live at **[primevgency.com](https://primevgency.com)**.
+
+- **Source** — [github.com/hypeuniversal28-cloud/black-vision](https://github.com/hypeuniversal28-cloud/black-vision)
+- **Hosting** — Vercel project `black-vision`, auto-deploys on every push to `main`
+- **Domain** — `primevgency.com` and `www.primevgency.com` point to Vercel at the
+  registrar (Spaceship). Email (Spacemail MX/TXT records) was left untouched.
+
 ## Before going live
 
-- [ ] **Domain** — `site.url` in `lib/site.ts` is still `blackvision.com`. It feeds
-      metadata, `sitemap.xml`, `robots.txt` and social share previews.
-- [ ] **`WHATSAPP_NUMBER` set on the host** (see above).
+- [x] **Domain** — `site.url` in `lib/site.ts` is `primevgency.com`.
+- [x] **`WHATSAPP_NUMBER` set on the host** (Vercel → Environment Variables).
 - [ ] **Contact channels** — `lib/site.ts` → `contact`. Only WhatsApp is filled in.
       Add `email`, `instagram`, `snapchat` when the real accounts exist; any channel
       left as an empty string is automatically hidden everywhere on the site, so
