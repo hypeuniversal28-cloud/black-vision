@@ -9,6 +9,7 @@ import Magnetic from "@/components/Magnetic";
 import HeroGlow from "@/components/graphics/HeroGlow";
 import SectionHeading from "@/components/SectionHeading";
 import CategoryList from "@/components/CategoryList";
+import QuickContact from "@/components/QuickContact";
 import TrustBar from "@/components/TrustBar";
 import TrustPoints from "@/components/TrustPoints";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -90,6 +91,8 @@ export default async function Home({
           </Reveal>
         </Container>
       </section>
+
+      <QuickContact />
 
       <section id="discover" className="scroll-mt-16 py-20 md:py-28">
         <Container className="flex flex-col gap-10">

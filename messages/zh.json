@@ -42,6 +42,10 @@
     "processTitle": "运作方式",
     "processSub": "私人订制服务，从第一条消息到最终交付全程跟进。"
   },
+  "quickContact": {
+    "tagline": "直接给我们发消息，真人为您解答。",
+    "channels": { "whatsapp": "通过 WhatsApp 联系", "telegram": "通过 Telegram 联系" }
+  },
   "trustBar": {
     "eyebrow": "本地据点",
     "china": "中国",

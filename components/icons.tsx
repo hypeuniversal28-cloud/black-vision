@@ -97,6 +97,36 @@ export function CustomIcon({ className }: IconProps) {
   );
 }
 
+export function WhatsAppIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 32 32" fill="none" className={className} aria-hidden="true">
+      <path
+        d="M16 6.5a9.5 9.5 0 0 0-8.2 14.3L6.5 25.5l4.9-1.3A9.5 9.5 0 1 0 16 6.5Z"
+        stroke="currentColor"
+        strokeWidth={base}
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12.3 12.6c-.3.6-.8 1.5.2 3.1 1 1.6 2.7 3.1 4.3 3.7 1.5.6 2.3.3 2.7 0 .4-.3.7-1 .8-1.4"
+        stroke="currentColor"
+        strokeWidth={base}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function TelegramIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 32 32" fill="none" className={className} aria-hidden="true">
+      <circle cx="16" cy="16" r="9.5" stroke="currentColor" strokeWidth={base} />
+      <path d="M9.5 16.7 22 10.8 18.3 21.5l-3.5-3.9-1.8 1.7-.2-3.2Z" stroke="currentColor" strokeWidth={base} strokeLinejoin="round" />
+      <path d="M14.8 17.6 22 10.8" stroke="currentColor" strokeWidth={base} strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function ArrowIcon({ className }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">

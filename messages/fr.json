@@ -42,6 +42,10 @@
     "processTitle": "Comment ça marche",
     "processSub": "Une demande privée, traitée du premier message jusqu'à la livraison finale."
   },
+  "quickContact": {
+    "tagline": "Écrivez-nous directement. Une vraie personne vous répond.",
+    "channels": { "whatsapp": "Discuter sur WhatsApp", "telegram": "Discuter sur Telegram" }
+  },
   "trustBar": {
     "eyebrow": "SUR PLACE",
     "china": "CHINE",

@@ -42,6 +42,10 @@
     "processTitle": "Cómo funciona",
     "processSub": "Una solicitud privada, gestionada desde el primer mensaje hasta la entrega final."
   },
+  "quickContact": {
+    "tagline": "Escríbenos directamente. Te responde una persona real.",
+    "channels": { "whatsapp": "Chatear por WhatsApp", "telegram": "Chatear por Telegram" }
+  },
   "trustBar": {
     "eyebrow": "SOBRE EL TERRENO",
     "china": "CHINA",

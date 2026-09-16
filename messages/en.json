@@ -42,6 +42,10 @@
     "processTitle": "How it works",
     "processSub": "A private request, handled from first message to final delivery."
   },
+  "quickContact": {
+    "tagline": "Message us directly. A real person answers.",
+    "channels": { "whatsapp": "Chat on WhatsApp", "telegram": "Chat on Telegram" }
+  },
   "trustBar": {
     "eyebrow": "ON THE GROUND",
     "china": "CHINA",
