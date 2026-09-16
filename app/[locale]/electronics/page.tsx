@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import CategoryPageTemplate from "@/components/CategoryPageTemplate";
+import { englishTitle } from "@/i18n/englishTitle";
 
 const slug = "electronics";
 
@@ -12,7 +13,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: `categories.${slug}` });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle(`categories.${slug}.metaTitle`) },
     description: t("metaDescription"),
   };
 }

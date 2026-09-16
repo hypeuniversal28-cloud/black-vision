@@ -6,6 +6,7 @@ import SectionHeading from "@/components/SectionHeading";
 import Reveal from "@/components/Reveal";
 import TrustBar from "@/components/TrustBar";
 import CTASection from "@/components/CTASection";
+import { englishTitle } from "@/i18n/englishTitle";
 
 type Pillar = { title: string; body: string };
 
@@ -17,7 +18,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.about" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.about.metaTitle") },
     description: t("metaDescription"),
   };
 }

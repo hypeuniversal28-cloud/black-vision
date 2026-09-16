@@ -14,6 +14,7 @@ import TrustPoints from "@/components/TrustPoints";
 import ProcessSteps from "@/components/ProcessSteps";
 import CTASection from "@/components/CTASection";
 import { site } from "@/lib/site";
+import { englishTitle } from "@/i18n/englishTitle";
 
 export async function generateMetadata({
   params,
@@ -23,7 +24,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    title: { absolute: t("titleDefault") },
+    title: { absolute: englishTitle("meta.titleDefault") },
     description: t("siteDescription"),
   };
 }

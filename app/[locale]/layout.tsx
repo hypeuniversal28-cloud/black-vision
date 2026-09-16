@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { site } from "@/lib/site";
 import { routing, rtlLocales, type Locale } from "@/i18n/routing";
+import { englishTitle } from "@/i18n/englishTitle";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -37,8 +38,8 @@ export async function generateMetadata({
   return {
     metadataBase: new URL(site.url),
     title: {
-      default: t("titleDefault"),
-      template: t("titleTemplate"),
+      default: englishTitle("meta.titleDefault"),
+      template: englishTitle("meta.titleTemplate"),
     },
     description: t("siteDescription"),
     alternates: { languages },

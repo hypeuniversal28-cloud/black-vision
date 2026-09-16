@@ -6,10 +6,10 @@ import Reveal from "@/components/Reveal";
 import RevealText from "@/components/RevealText";
 import Magnetic from "@/components/Magnetic";
 import HeroGlow from "@/components/graphics/HeroGlow";
+import { englishTitle } from "@/i18n/englishTitle";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("pages.notFound");
-  return { title: { absolute: t("metaTitle") } };
+  return { title: { absolute: englishTitle("pages.notFound.metaTitle") } };
 }
 
 export default async function NotFound() {

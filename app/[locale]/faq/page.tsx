@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 import FAQAccordion from "@/components/FAQAccordion";
 import CTASection from "@/components/CTASection";
 import { type FaqItem } from "@/lib/faq";
+import { englishTitle } from "@/i18n/englishTitle";
 
 export async function generateMetadata({
   params,
@@ -14,7 +15,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.faq" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.faq.metaTitle") },
     description: t("metaDescription"),
   };
 }

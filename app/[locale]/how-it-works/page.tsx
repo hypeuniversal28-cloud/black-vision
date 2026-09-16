@@ -7,6 +7,7 @@ import ProcessSteps from "@/components/ProcessSteps";
 import TrustPoints from "@/components/TrustPoints";
 import CTASection from "@/components/CTASection";
 import Reveal from "@/components/Reveal";
+import { englishTitle } from "@/i18n/englishTitle";
 
 export async function generateMetadata({
   params,
@@ -16,7 +17,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.howItWorks" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.howItWorks.metaTitle") },
     description: t("metaDescription"),
   };
 }

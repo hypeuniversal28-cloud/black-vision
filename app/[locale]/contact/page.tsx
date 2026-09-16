@@ -8,6 +8,7 @@ import HeroGlow from "@/components/graphics/HeroGlow";
 import { ArrowIcon } from "@/components/icons";
 import { getContactChannels } from "@/lib/site";
 import { Link } from "@/i18n/navigation";
+import { englishTitle } from "@/i18n/englishTitle";
 
 const options = getContactChannels();
 
@@ -19,7 +20,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.contact" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.contact.metaTitle") },
     description: t("metaDescription"),
   };
 }

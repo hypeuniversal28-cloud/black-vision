@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
+import { englishTitle } from "@/i18n/englishTitle";
 
 type LegalSection = { title: string; body: string };
 
@@ -13,7 +14,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.terms" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.terms.metaTitle") },
     description: t("metaDescription"),
   };
 }

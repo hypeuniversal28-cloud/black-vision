@@ -6,6 +6,7 @@ import RevealText from "@/components/RevealText";
 import RequestForm from "@/components/RequestForm";
 import TrustPoints from "@/components/TrustPoints";
 import { getCategory } from "@/lib/categories";
+import { englishTitle } from "@/i18n/englishTitle";
 
 export async function generateMetadata({
   params,
@@ -15,7 +16,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages.customRequest" });
   return {
-    title: { absolute: t("metaTitle") },
+    title: { absolute: englishTitle("pages.customRequest.metaTitle") },
     description: t("metaDescription"),
   };
 }
